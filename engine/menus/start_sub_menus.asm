@@ -541,7 +541,7 @@ DrawTrainerInfo:
 	call TrainerInfo_DrawVerticalLine
 	hlcoord 19, 10
 	call TrainerInfo_DrawVerticalLine
-	hlcoord 6, 9
+	hlcoord 5, 9
 	ld de, TrainerInfo_BadgesText
 	call PlaceString
 	hlcoord 2, 2
@@ -569,13 +569,13 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText:
-	db   "NAME/"
-	next "MONEY/"
-	next "TIME/@"
+	db   "NOME/"
+	next "SOLDI/"
+	next "TEMPO/@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
-	db $76,"BADGES",$76,"@"
+	db $76,"MEDAGLIE",$76,"@"
 
 ; draws a text box on the trainer info screen
 ; height is always 6

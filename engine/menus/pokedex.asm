@@ -185,10 +185,10 @@ HandlePokedexListMenu:
 	hlcoord 16, 6
 	lb bc, 1, 3
 	call PrintNumber ; print number of owned pokemon
-	hlcoord 16, 2
+	hlcoord 15, 2
 	ld de, PokedexSeenText
 	call PlaceString
-	hlcoord 16, 5
+	hlcoord 15, 5
 	ld de, PokedexOwnText
 	call PlaceString
 	hlcoord 1, 1
@@ -360,19 +360,19 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "SEEN@"
+	db "VISTI@"
 
 PokedexOwnText:
-	db "OWN@"
+	db "PRESI@"
 
 PokedexContentsText:
-	db "CONTENTS@"
+	db "CONTENUTO@"
 
 PokedexMenuItemsText:
-	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "QUIT@"
+	db   "DATI"
+	next "VER."
+	next "ZONA"
+	next "ESCI@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:

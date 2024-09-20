@@ -119,10 +119,10 @@ _YeahText::
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "#DEX  Visti:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "         Presi:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
@@ -131,26 +131,28 @@ _DexRatingText::
 	done
 
 _GymStatueText1::
+	text "CAPOPALESTRA di"
+	line "@"
 	text_ram wGymCityName
-	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	text ":"
+	cont "@"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "ALLENAT.VINCENTI:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
+	text "CAPOPALESTRA di"
+	line "@"
 	text_ram wGymCityName
-	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	text ":"
+	cont "@"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "ALLENAT.VINCENTI:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done

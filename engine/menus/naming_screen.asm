@@ -469,9 +469,9 @@ PrintNamingText:
 	call GetMonName
 	hlcoord 4, 1
 	call PlaceString
-	ld hl, $1
-	add hl, bc
-	ld [hl], "の" ; leftover from Japanese version; blank tile $c9 in English
+	;ld hl, $1
+	;add hl, bc
+	;ld [hl], "の" ; leftover from Japanese version; blank tile $c9 in English
 	hlcoord 1, 3
 	ld de, NicknameTextString
 	jr .placeString
@@ -484,13 +484,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "NOME TUO@"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "NOME RIVALE@"
 
 NameTextString:
-	db "NAME?@"
+	db "?@"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "NOME?@"
