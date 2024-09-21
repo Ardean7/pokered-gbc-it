@@ -176,6 +176,7 @@
 	charmap "ó",         $d0
 	charmap "ù",         $d1
 	charmap "ú",         $d2
+	charmap "°",         $d3
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
