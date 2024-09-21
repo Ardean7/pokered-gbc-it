@@ -210,11 +210,11 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db   "TYPE1/"
+	db   "TIPO1/"
 	next ""
 	; fallthrough
 Type2Text:
-	db   "TYPE2/"
+	db   "TIPO2/"
 	next ""
 	; fallthrough
 IDNoText:
@@ -222,11 +222,11 @@ IDNoText:
 	next ""
 	; fallthrough
 OTText:
-	db   "OT/"
+	db   "AO/"
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	db "STATO@"
 
 OKText:
 	db "OK@"
@@ -295,10 +295,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "ATTACCO"
+	next "DIFESA"
+	next "VELOCITÀ"
+	next "SPECIALI@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -411,7 +411,7 @@ ENDC
 	ld [wLoadedMonLevel], a ; Increase temporarily if not 100
 .Level100
 	hlcoord 14, 6
-	ld [hl], "<to>"
+	ld [hl], "a"
 	inc hl
 	inc hl
 	call PrintLevel
@@ -475,8 +475,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	db   "PUNTI ESP."
+	next "LIV. SUP.@"
 
 StatusScreen_ClearName:
 	ld bc, 10
