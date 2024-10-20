@@ -1,159 +1,159 @@
-# Instructions
+# Istruzioni
 
-These instructions explain how to set up the tools required to build **pokered-gbc**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
+Queste istruzioni spiegano come impostare i tool richiesti per comporre **pokered-gbc-it**, incluso [**rgbds**](https://github.com/gbdev/rgbds), che assembla i file sorgenti in una ROM.
 
-If you run into trouble, ask for help on IRC or Discord (see [README.md](README.md)).
+In caso di problemi, chiedere aiuto su IRC oppure Discord (vedere [README.md](README.md)).
 
 
 ## Windows 10
 
-Download and install [**Windows Subsystem for Linux**](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Then open the **WSL terminal**.
+Scaricare e installare [**Windows Subsystem for Linux**](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Quindi aprire il **WSL terminal**.
 
-Update WSL's software before continuing. If you chose Debian, Ubuntu, or another distribution that uses `apt-get`, then enter this command:
+Aggiornare il software WSL prima di continuare. Se si ha scelto Debian, Ubuntu, o un'altra distribuzione che usa `apt-get`, allora digitare questo comando:
 
 ```bash
 apt-get update && apt-get upgrade
 ```
 
-WSL has its own file system that's not accessible from Windows, but Windows files *are* accessible from WSL. So you're going to want to install pokered-gbc within Windows. You'll have to change the **current working directory** every time you open WSL.
+WSL possiede il proprio file system che non è accessibile da Windows, tuttavia i file di Windows *sono* accessibili da WSL. Perciò verrà installato pokered-gbc-it all'interno di Windows. È necessario cambiare la **cartella di lavoro corrente** ogni volta che si apre WSL.
 
-For example, if you want to store pokered-gbc in **C:\Users\\*\<user>*\Desktop**, enter this command:
+Ad esempio, se si vuole archiviare pokered-gbc-it in **C:\Users\\*\<user>*\Desktop**, immettere questo comando:
 
 ```bash
 cd /mnt/c/Users/<user>/Desktop
 ```
 
-(The Windows `C:\` drive is called `/mnt/c/` in WSL. Replace *\<user>* in the example path with your username.)
+(Il drive `C:\` di Windows viene chiamato `/mnt/c/` in WSL. Sostituire *\<user>* nel percorso di esempio con il proprio username.)
 
-If this works, then follow [the instructions for **Linux**](#linux) below for whatever distribution you installed for WSL.
+Se tutto funziona correttamente, allora seguire [le istruzioni per **Linux**](#linux) sotto per qualunque distribuzione si ha installato con WSL.
 
-Otherwise, continue reading below for [the older Windows instructions](#windows).
+Altrimenti, continuare a leggere sotto [le istruzioni per versioni precedenti di Windows](#windows).
 
 
 ## Windows
 
-Download [**Cygwin**](http://cygwin.com/install.html): **setup-x86_64.exe** for 64-bit Windows, **setup-x86.exe** for 32-bit.
+Scaricare [**Cygwin**](http://cygwin.com/install.html): **setup-x86_64.exe** per Windows 64-bit, **setup-x86.exe** for Windows 32-bit.
 
-Run setup and leave the default settings. At the "**Select Packages**" step, choose to install the following, all of which are in the "**Devel**" category:
+Eseguire il file setup e lasciare le impostazioni di default. Al passaggio "**Select Packages**", selezionare da installare i seguenti pacchetti, tutti presenti nella categoria "**Devel**":
 
 - `make`
 - `git`
 - `gcc-core`
 
-Double click on the text that says "**Skip**" next to each package to select the most recent version to install.
+Doppio click sul testo che riporta "**Skip**" a fianco ad ogni pacchetto per selezionare la versione più recente da installare.
 
-Then follow the [**rgbds** install instructions](https://rgbds.gbdev.io/install#pre-built) for Windows with Cygwin to install **rgbds 0.7.0**.
+Quindi seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#pre-built) per Windows con Cygwin per installare **rgbds 0.7.0**.
 
-**Note:** If you already have an installed rgbds older than 0.7.0, you will need to update to 0.7.0. Ignore this if you have never installed rgbds before. If a version newer than 0.7.0 does not work, try downloading 0.7.0.
+**Nota:** Se si ha già installata una versione di rgbds più vecchia della 0.7.0, sarà necessario aggiornarla a quest'ultima. Se una versione più recente della 0.7.0 non funziona, provare a scaricare quest'ultima.
 
-Now open the **Cygwin terminal** and enter the following commands.
+Ora, aprire il **Cygwin terminal** ed immettere i seguenti comandi.
 
-Cygwin has its own file system that's within Windows, at **C:\cygwin64\home\\*\<user>***. If you don't want to store pokered-gbc there, you'll have to change the **current working directory** every time you open Cygwin.
+Cygwin possiede il proprio file system all'interno di Windows, in **C:\cygwin64\home\\*\<user>***. Se non si desidera archiviare pokered-gbc-it qui, occorre cambiare la **cartella di lavoro corrente** ogni volta che si apre Cygwin.
 
-For example, if you want to store pokered-gbc in **C:\Users\\*\<user>*\Desktop**:
+Ad esempio, se si vuole archiviare pokered-gbc-it in **C:\Users\\*\<user>*\Desktop**:
 
 ```bash
 cd /cygdrive/c/Users/<user>/Desktop
 ```
 
-(The Windows `C:\` drive is called `/cygdrive/c/` in Cygwin. Replace *\<user>* in the example path with your username.)
+(Il drive `C:\` di Windows viene chiamato `/cygdrive/c/` in Cygwin. Sostituire *\<user>* nel percorso di esempio con il proprio username.)
 
-Now you're ready to [build **pokered-gbc**](#build-pokered-gbc).
+Tutto è pronto per [assemblare **pokered-gbc-it**](#assemblare-pokered-gbc-it).
 
 
 ## macOS
 
-Install [**Homebrew**](https://brew.sh/). Follow the official instructions.
+Installare [**Homebrew**](https://brew.sh/). Seguire le istruzioni ufficiali.
 
-Open **Terminal** and prepare to enter commands.
+Aprire il **Terminal** per immettere i comandi.
 
-Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#pre-built) for macOS to install **rgbds 0.7.0**.
+Ora seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#pre-built) per macOS per installare **rgbds 0.7.0**.
 
-Now you're ready to [build **pokered-gbc**](#build-pokered-gbc).
+Tutto è pronto per [assemblare **pokered-gbc-it**](#assemblare-pokered-gbc-it).
 
 
 ## Linux
 
-Open **Terminal** and enter the following commands, depending on which distro you're using.
+Aprire il **Terminal** ed immettere i seguenti comandi, a seconda della distribuzione che si sta utilizzando.
 
-### Debian or Ubuntu
+### Debian/Ubuntu
 
-To install the software required for **pokered-gbc**:
+Per installe il software richiesto per **pokered-gbc-it**:
 
 ```bash
 sudo apt-get install make gcc git
 ```
 
-Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.
+Quindi seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#building-from-source) per compilare **rgbds 0.7.0** dal sorgente.
 
 ### OpenSUSE
 
-To install the software required for **pokered-gbc**:
+Per installe il software richiesto per **pokered-gbc-it**:
 
 ```bash
 sudo zypper install make gcc git
 ```
 
-Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.
+Quindi seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#building-from-source) per compilare **rgbds 0.7.0** dal sorgente.
 
 ### Arch Linux
 
-To install the software required for **pokered-gbc**:
+Per installe il software richiesto per **pokered-gbc-it**:
 
 ```bash
 sudo pacman -S make gcc git rgbds
 ```
 
-If you want to compile and install **rgbds** yourself instead, then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.
+Se si vuole compilare e installare **rgbds** per conto proprio, seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#building-from-source) per compilare **rgbds 0.7.0** dal sorgente.
 
 ### Termux
 
-To install the software required for **pokered-gbc**:
+Per installe il software richiesto per **pokered-gbc-it**:
 
 ```bash
 sudo apt install make clang git sed
 ```
 
-To install **rgbds**:
+Per installare **rgbds**:
 
 ```bash
 sudo apt install rgbds
 ```
 
-If you want to compile and install **rgbds** yourself instead, then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.
+Se si vuole compilare e installare **rgbds** per conto proprio, seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#building-from-source) per compilare **rgbds 0.7.0** dal sorgente.
 
-### Other distros
+### Altre distribuzioni
 
-If your distro is not listed here, try to find the required software in its repositories:
+Se la propria distribuzione non è qui elencata, provare a cercare il software richiesto nei suoi repositories:
 
 - `make`
 - `gcc` (or `clang`)
 - `git`
 - `rgbds`
 
-If `rgbds` is not available, you'll need to follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 0.7.0** from source.
+Se `rgbds` non è disponibile, seguire le [istruzioni di **rgbds**](https://rgbds.gbdev.io/install#building-from-source) per compilare **rgbds 0.7.0** dal sorgente.
 
-Now you're ready to [build **pokered-gbc**](#build-pokered-gbc).
+Tutto è pronto per [assemblare **pokered-gbc-it**](#assemblare-pokered-gbc-it).
 
 
-## Build pokered-gbc
+## Assemblare pokered-gbc-it
 
-To download the **pokered-gbc** source files:
+Per scaricare i file sorgente di **pokered-gbc-it**:
 
 ```bash
-git clone https://github.com/dannye/pokered-gbc
-cd pokered-gbc
+git clone https://github.com/Ardean7/pokered-gbc-it
+cd pokered-gbc-it
 ```
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+Per assemblare **pokered.gbc** e **pokeblue.gbc**:
 
 ```bash
 make
 ```
 
-### Build with a local rgbds version
+### Assemblare con una versione locale di rgbds
 
-If you have different projects that require different versions of `rgbds`, it might not be convenient to install rgbds 0.7.0 globally. Instead, you can put its files in a directory within pokered-gbc, such as `pokered-gbc/rgbds-0.7.0/`. Then specify it when you run `make`:
+Se si hanno diversi progetti che richiedono versioni differenti di `rgbds`, potrebbe non essere conveniente installare rgbds 0.7.0 globalmente. Invece, è possibile mettere i suoi file in una cartella all'interno di pokered-gbc-it, ad esempio `pokered-gbc/rgbds-0.7.0/`. Quindi specificarla quando si esegue il comando `make`:
 
 ```bash
 make RGBDS=rgbds-0.7.0/
