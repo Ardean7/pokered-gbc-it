@@ -1,22 +1,22 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Il file è stato"
+	line "distrutto!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Vuoi salvare"
+	line "il gioco?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> ha salvato"
+	line "il gioco!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Cancella il file"
+	line "precedente per"
+	cont "salvare questo?"
 	done
 
 _WhenYouChangeBoxText::

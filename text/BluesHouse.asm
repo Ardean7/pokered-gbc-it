@@ -1,7 +1,8 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Ciao <PLAYER>!"
+	line "<RIVAL> è"
+	cont "al laboratorio"
+	cont "del nonno."
 	done
 
 _BluesHouseDaisyOfferMapText::
@@ -37,6 +38,6 @@ _BluesHouseDaisyWalkingText::
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "È una mappa"
+	line "enorme e utile!"
 	done

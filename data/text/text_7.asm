@@ -27,22 +27,22 @@ _GotOffBicycleText2::
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Hai buttato"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Buttare via"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Non buttare! È"
+	line "troppo utile!"
 	prompt
 
 _AlreadyKnowsText::

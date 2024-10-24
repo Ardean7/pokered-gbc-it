@@ -75,8 +75,8 @@ _TradeforText::
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "Una slot machine!"
+	line "Vuoi giocare?"
 	done
 
 _OutOfCoinsSlotMachineText::
@@ -85,12 +85,12 @@ _OutOfCoinsSlotMachineText::
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Quanti gettoni"
+	line "punti?"
 	done
 
 _StartSlotMachineText::
-	text "Start!"
+	text "Avanti!"
 	done
 
 _NotEnoughCoinsSlotMachineText::
@@ -99,8 +99,7 @@ _NotEnoughCoinsSlotMachineText::
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more "
-	line "go?"
+	text "Un'altra volta?"
 	done
 
 _LinedUpText::
@@ -111,7 +110,7 @@ _LinedUpText::
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Tenta ancora!"
 	prompt
 
 _YeahText::
@@ -282,8 +281,8 @@ _CeladonCityHotelText::
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Pieno zeppo di"
+	line "libri #MON!"
 	done
 
 _NewBicycleText::
@@ -292,14 +291,14 @@ _NewBicycleText::
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Premi START per"
+	line "aprire il MENU!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "L'opzione SALVA è"
+	line "sullo schermo"
+	cont "del MENU."
 	done
 
 _StrengthsAndWeaknessesText::
@@ -416,40 +415,44 @@ _BillsHousePokemonListText2::
 	done
 
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
+	text "C'è un messaggio"
+	line "e-mail qui!"
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "Avviso a tutti"
+	line "gli allenatori"
+	cont "di #MON!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "Il consiglio degli"
+	line "allenatori della"
+	cont "LEGA #MON"
+	cont "è pronto ad"
+	cont "accogliere tutti!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Portate i vostri"
+	line "#MON migliori"
+	cont "e scoprirete il"
+	cont "vostro punteggio"
+	cont "come allenatori!"
 
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	para "SEDE CENTRALE"
+	line "LEGA #MON"
+	cont "ALTOPIANO BLU"
 
 	para "PS: PROF.OAK,"
-	line "please visit us!"
-	cont "..."
+	line "per favore,"
+	cont "venga da noi!"
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
-	line "required!"
+	text "È necessario un"
+	line "SALVADANAIO!"
 	done
 
 _GameCornerNoCoinsText::
-	text "You don't have"
-	line "any coins!"
+	text "Non hai"
+	line "gettoni!"
 	done
 
 _GameCornerOutOfOrderText::
@@ -577,10 +580,10 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> sta"
+	line "giocando a Super"
+	cont "Nintendo! Bene!"
+	cont "Andiamo!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -800,8 +803,8 @@ _IndigoPlateauStatuesText3::
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Pieno zeppo di"
+	line "libri #MON!"
 	done
 
 _DiglettSculptureText::
@@ -924,8 +927,8 @@ _TrainerAboutToUseText::
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " manda"
+	line "@"
 	text_ram wEnemyMonNick
 	text "!"
 	done
@@ -940,9 +943,9 @@ _CantEscapeText::
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Non puoi sottrarti"
+	line "alla lotta con"
+	cont "un allenatore!"
 	prompt
 
 _GotAwayText::
@@ -956,8 +959,8 @@ _ItemsCantBeUsedHereText::
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text_start
+	line "è già in campo!"
 	prompt
 
 _MoveNoPPText::
@@ -1083,12 +1086,12 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "usa @"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "usa @"
 	text_end
 
 _InsteadText::
@@ -1258,8 +1261,8 @@ _EnemyAppearedText::
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text_start
+	line "vuole lottare!"
 	prompt
 
 _UnveiledGhostText::
@@ -1274,7 +1277,7 @@ _GhostCantBeIDdText::
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Vai! @"
 	text_end
 
 _DoItText::
@@ -1350,8 +1353,8 @@ _PickUpPayDayMoneyText::
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Cancellare tutti"
+	line "i dati salvati?"
 	done
 
 _WhichFloorText::
@@ -1360,12 +1363,12 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Scegli un #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Su quale #MON"
+	line "lo vuoi usare?"
 	done
 
 _PartyMenuBattleText::
@@ -1442,8 +1445,8 @@ _RareCandyText::
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> accende"
+	line "il PC."
 	prompt
 
 _AccessedBillsPCText::
@@ -1470,33 +1473,33 @@ _AccessedMyPCText::
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> accende"
+	line "il PC."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Cosa vuoi fare?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Cosa vuoi"
+	line "depositare?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Quanti?"
 	done
 
 _ItemWasStoredText::
+	text "Hai depositato"
+	line "@"
 	text_ram wcd6d
-	text " was"
-	line "stored via PC."
+	text "."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Non hai niente"
+	line "da depositare!"
 	prompt
 
 _NoRoomToStoreText::
@@ -1505,24 +1508,24 @@ _NoRoomToStoreText::
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Cosa vuoi"
+	line "ritirare?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Quanti?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Hai ritirato"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Non c'è niente"
+	line "in memoria."
 	prompt
 
 _CantCarryMoreText::
@@ -1531,12 +1534,12 @@ _CantCarryMoreText::
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Cosa vuoi"
+	line "buttar via?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Quanti?"
 	done
 
 _AccessedHoFPCText::
@@ -1696,81 +1699,85 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Ciao a tutti!"
+	line "Benvenuti nel"
+	cont "mondo dei #MON"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Mi chiamo OAK!"
+	line "Però la gente mi"
+	cont "chiama PROFESSORE"
+	cont "dei #MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Questo mondo è"
+	line "abitato da"
+	cont "creature"
+	cont "chiamate #MON!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Per alcuni i"
+	line "#MON sono"
+	cont "piccoli amici,"
+	cont "altri li usano"
+	cont "per lottare."
 
-	para "Myself..."
+	para "In quanto a me..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "...lo studio dei"
+	line "#MON è"
+	cont "il mio lavoro."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Però prima dimmi"
+	line "come ti chiami."
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Questo è mio"
+	line "nipote. È stato"
+	cont "tuo rivale fin da"
+	cont "quando eri bimbo."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Mmm, potresti"
+	line "ricordarmi come"
+	cont "si chiama?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "La tua leggenda"
+	line "nel mondo #MON"
+	cont "sta per iniziare!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Ti aspetta un"
+	line "mondo di sogni e"
+	cont "avventure con i"
+	cont "#MON! Andiamo!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Vuoi dare un"
+	line "soprannome a"
+	cont "@"
 	text_ram wcd6d
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Bene! Il tuo nome"
+	line "è <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Ah, sì! Ora"
+	line "ricordo! Si"
+	cont "chiama <RIVAL>!"
 	prompt
 
 _WillBeTradedText::

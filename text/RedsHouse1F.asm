@@ -1,12 +1,13 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MAMMA: Ascolta!"
+	line "Prima o poi tutti"
+	cont "i giovani vanno"
+	cont "via di casa. Lo"
+	cont "dice anche la TV!"
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "Il nostro vicino,"
+	line "il PROF.OAK,"
+	cont "ti sta cercando."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
@@ -24,14 +25,16 @@ _RedsHouse1FMomLookingGreatText::
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "C'è un film"
+	line "in TV. Quattro"
+	cont "ragazzi camminano"
+	cont "sui binari!"
 
-	para "I better go too."
+	para "Ora però è"
+	line "meglio che vada!"
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Oh! È il lato"
+	line "sbagliato!"
 	done

@@ -194,13 +194,13 @@ _ItemUseNotTimeText::
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Non puoi usarlo,"
+	line "non è tuo!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Non avrà alcun"
+	line "effetto."
 	prompt
 
 _ThrowBallAtTrainerMonText1::

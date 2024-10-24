@@ -826,8 +826,7 @@ ItemUseMedicine:
 	ld [wActionResultOrTookBattleTurn], a ; item use failed
 	jp PrintText
 .emptyPartyText
-	text "You don't have"
-	line "any #MON!"
+	text "Non hai #MON!"
 	prompt
 .notUsingSoftboiled
 	call DisplayPartyMenu
