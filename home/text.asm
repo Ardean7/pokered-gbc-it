@@ -161,11 +161,11 @@ PlaceMoveUsersName::
 	jr PlaceCommandCharacter
 
 .enemy
-	ld de, EnemyText
+	ld de, wEnemyMonNick
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, wEnemyMonNick
+	ld de, EnemyText
 	; fallthrough
 
 PlaceCommandCharacter::
@@ -176,13 +176,13 @@ PlaceCommandCharacter::
 	inc de
 	jp PlaceNextChar
 
-TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
+TMCharText::      db "MT@"
+TrainerCharText:: db "ALLENATORE@"
 PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db " nemico@"
 PlacePKMNText::   db "<PK><MN>@"
 
 ContText::
