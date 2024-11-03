@@ -939,7 +939,7 @@ _NoWillText::
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Non si scappa!"
 	prompt
 
 _NoRunningText::
@@ -949,7 +949,7 @@ _NoRunningText::
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Scampato pericolo!"
 	prompt
 
 _ItemsCantBeUsedHereText::
@@ -1145,7 +1145,7 @@ _DoesntAffectMonText::
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Brutto colpo!"
 	prompt
 
 _OHKOText::
@@ -1239,10 +1239,10 @@ _GrewLevelText::
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "Appare @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "selvatico!"
 	prompt
 
 _HookedMonAttackedText::
@@ -1300,11 +1300,11 @@ _PlayerMon1Text::
 
 _PlayerMon2Text::
 	text_ram wBattleMonNick
-	text " @"
+	text ", @"
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "basta!@"
 	text_end
 
 _OKExclamationText::
@@ -1317,7 +1317,7 @@ _GoodText::
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Rientra!"
 	done
 
 _SuperEffectiveText::
@@ -1382,8 +1382,8 @@ _PartyMenuUseTMText::
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Dove vuoi spostare"
+	line "il #MON?"
 	done
 
 _PotionText::
