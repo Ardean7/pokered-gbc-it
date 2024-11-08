@@ -1,23 +1,23 @@
 _DexCompletionText::
-	text "#DEX comp-"
-	line "letion is:"
+	text "Il tuo #DEX"
+	line "dice:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " #MON visti"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " #MON presi"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "Giudizio del"
+	line "PROF.OAK:"
 	prompt
 
 _DexRatingText_Own0To9::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "Hai ancora"
+	line "molto da fare."
+	cont "Cerca i #MON"
+	cont "nell'erba alta!"
 	done
 
 _DexRatingText_Own10To19::

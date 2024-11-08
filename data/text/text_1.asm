@@ -51,13 +51,13 @@ _BoulderText::
 _MartSignText::
 	text "Abbiamo tutti gli"
 	line "strumenti per te!"
-	cont "#MON-MARKET"
+	para "#MON-MARKET"
 	done
 
 _PokeCenterSignText::
 	text "Ricarica i tuoi"
 	line "#MON!"
-	cont "CENTRO #MON"
+	para "CENTRO #MON"
 	done
 
 _FoundItemText::

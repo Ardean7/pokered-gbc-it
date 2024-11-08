@@ -20,16 +20,17 @@ _OlderFileWillBeErasedText::
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Al cambio del"
+	line "#MON BOX"
+	cont "il gioco verrà"
+	cont "salvato!"
 
-	para "Is that okay?"
+	para "D'accordo?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Scegli un"
+	line "<PKMN> BOX!@"
 	text_end
 
 _EvolvedText::
@@ -194,7 +195,7 @@ _MoveWasDisabledText::
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Non succede nulla!"
 	prompt
 
 _NoEffectText::

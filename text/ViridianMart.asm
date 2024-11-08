@@ -23,11 +23,12 @@ _ViridianMartClerkParcelQuestText::
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Qui si vendono"
+	line "molti ANTIDOTI."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "Mi dispiace,"
+	line "ho esaurito le"
+	cont "POZIONI!!!"
 	done

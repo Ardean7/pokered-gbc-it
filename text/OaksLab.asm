@@ -79,93 +79,93 @@ _OaksLabOak1YourPokemonCanFightText::
 
 _OaksLabOak1RaiseYourYoungPokemonText::
 	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "addestra il tuo"
+	cont "piccolo #MON"
+	cont "facendolo"
+	cont "lottare!"
 	done
 
 _OaksLabOak1DeliverParcelText::
 	text "OAK: Oh, <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "Come sta il mio"
+	line "vecchio #MON?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Beh, sembri"
+	line "piacergli molto."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "Devi avere talento"
+	line "come allenatore"
+	cont "di #MON!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Cosa? Hai qualcosa"
+	line "per me?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> consegna"
+	line "il PACCO per OAK.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "Ah! La # BALL"
+	line "speciale che ho"
+	cont "ordinato! Grazie!"
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "Ogni #MON"
+	line "del mondo aspetta"
+	cont "te, <PLAYER>!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "OAK: Per ottenere"
+	line "più dettagli sui"
+	cont "#MON non"
+	cont "basta vederli."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "Li devi catturare!"
+	line "Usa queste per"
+	cont "catturare quelli"
+	cont "selvatici."
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "<PLAYER> riceve"
+	line "5 # BALL!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Quando compare un"
+	line "#MON selvatico"
+	cont "puoi catturarlo."
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	para "Lanciagli una"
+	line "# BALL e cerca"
+	cont "di prenderlo!"
 
-	para "This won't always"
-	line "work, though."
+	para "Ma non sempre"
+	line "funzionerà."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Un #MON in forma"
+	line "può scappare."
+	cont "Ci vuole fortuna!"
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "OAK: Vieni a"
+	line "trovarmi"
+	cont "ogni tanto."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Voglio vedere a"
+	line "che punto è il"
+	cont "tuo #DEX."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "OAK: Che piacere"
+	line "vederti! Come va"
+	cont "il tuo #DEX?"
+	cont "Fammi vedere!"
 	prompt
 
 _OaksLabPokedexText::
@@ -265,103 +265,109 @@ _OaksLabRivalIllTakeYouOnText::
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "Cosa?"
+	line "Non può essere!"
+	cont "Era il #MON"
+	cont "sbagliato!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Sììì!"
+	line "Sono o non sono"
+	cont "grande?"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: OK!"
+	line "Allenerò il mio"
+	cont "#MON per"
+	cont "rinforzarlo!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! Nonno!"
+	line "Ci vediamo dopo!"
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Nonno!"
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: Perché mi"
+	line "hai fatto venire?"
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "OAK: Ah sì!"
+	line "Devo chiedervi un"
+	cont "grosso favore!"
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "Là sulla scrivania"
+	line "c'è una delle mie"
+	cont "invenzioni,"
+	cont "il #DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Registra"
+	line "automaticamente i"
+	cont "dati dei #MON"
+	cont "visti o presi!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "È una specie di"
+	line "enciclopedia!"
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "OAK: <PLAYER> e"
+	line "<RIVAL>! Portate"
+	cont "questi con voi!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> riceve il"
+	line "#DEX da OAK!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Realizzare una"
+	line "guida completa di"
+	cont "tutti i #MON"
+	cont "del mondo..."
 
-	para "That was my dream!"
+	para "Era questo il mio"
+	line "grande sogno!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Ma sono troppo"
+	line "vecchio ormai!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Allora voglio che"
+	line "siate voi a"
+	cont "realizzarlo!"
 
-	para "Get moving, you"
-	line "two!"
+	para "Avanti allora,"
+	line "datevi da fare!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Sarà un grande"
+	line "contributo per"
+	cont "la storia"
+	cont "dei #MON!"
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Perfetto"
+	line "nonno, lascia"
+	cont "fare a me!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, mi"
+	line "dispiace dirlo,"
+	cont "ma non ho proprio"
+	cont "bisogno di te!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "So come fare!"
+	line "Prenderò la MAPPA"
+	cont "delle CITTÀ di"
+	cont "mia sorella!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
+	para "Le dirò di non"
+	line "prestartela,"
 	cont "<PLAYER>! Hahaha!"
 	done
 

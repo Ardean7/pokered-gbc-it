@@ -822,8 +822,8 @@ _TownMapText::
 	text_end
 
 _PokemonStuffText::
-	text "Wow! Tons of"
-	line "#MON stuff!"
+	text "Wow! Montagne di"
+	line "roba #MON!"
 	done
 
 _OutOfSafariBallsText::
@@ -863,21 +863,22 @@ _HurtByLeechSeedText::
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	text " nemico"
+	line "è esausto!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> vince"
+	line "¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	text "!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> ha battuto"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -886,7 +887,7 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "è esausto!"
 	prompt
 
 _UseNextMonText::
@@ -1211,7 +1212,7 @@ _HitXTimesText::
 
 _GainedText::
 	text_ram wcd6d
-	text " gained"
+	text " riceve"
 	line "@"
 	text_end
 
@@ -1227,13 +1228,13 @@ _BoostedText::
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " Punti ESP.!"
 	prompt
 
 _GrewLevelText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " sale"
+	line "al livello @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
@@ -1438,8 +1439,8 @@ _ReviveText::
 
 _RareCandyText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " sale"
+	line "al livello @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
@@ -1458,18 +1459,18 @@ _AccessedBillsPCText::
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Accesso al PC"
+	line "di ???"
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accesso al Sistema"
+	line "Memoria #MON"
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Accesso al mio PC."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Accesso al Sistema"
+	line "Memoria Strumenti"
 	prompt
 
 _TurnedOnPC2Text::
@@ -1555,7 +1556,7 @@ _SwitchOnText::
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Cosa?"
 	done
 
 _DepositWhichMonText::
@@ -1572,8 +1573,8 @@ _MonWasStoredText::
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Non depositare"
+	line "l'ultimo #MON!"
 	prompt
 
 _BoxFullText::
@@ -1591,8 +1592,8 @@ _MonIsTakenOutText::
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Cosa? Non ci sono"
+	line "#MON qui!"
 	prompt
 
 _CantTakeMonText::

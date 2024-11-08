@@ -1,40 +1,40 @@
 _Route22RivalBeforeBattleText1::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Ehi!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Stai andando alla"
+	line "LEGA #MON?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "Figuriamoci! Senza"
+	line "neanche una meda-"
+	cont "glia! Scordatelo!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "La guardia non ti"
+	line "farà mai passare!"
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "A proposito, sono"
+	line "più forti i tuoi"
+	cont "#MON ora?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "Si dice che gli"
+	line "allenatori della"
+	cont "LEGA #MON"
+	cont "siano fortissimi!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Devo escogitare"
+	line "un modo per"
+	cont "farla franca!"
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Smetti di perder"
+	line "tempo e sbrigati!"
 	done
 
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Ah!"
+	line "Solo un colpo"
+	cont "di fortuna!"
 	prompt
 
 _Route22Rival1VictoryText::
@@ -99,6 +99,6 @@ _Route22Rival2VictoryText::
 	prompt
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "LEGA #MON"
+	line "Porta principale"
 	done

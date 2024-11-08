@@ -11,17 +11,17 @@ _RedsHouse1FMomWakeUpText::
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MAMMA: <PLAYER>!"
+	line "Dovresti"
+	cont "riposarti un po'."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MAMMA: Perfetto!"
+	line "Ora tu e i tuoi"
+	cont "#MON siete"
+	cont "in gran forma!"
+	cont "Fai attenzione!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
