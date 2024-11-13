@@ -157,15 +157,7 @@
 	charmap "'t",        $be
 	charmap "'v",        $bf
 
-	charmap "à",         $c0 ;Added accent letters for Italian
-	charmap "á",         $c1
-	charmap "è",         $c2
-	charmap "ì",         $c3
-	charmap "í",         $c4
-	charmap "ò",         $c5
-	charmap "ó",         $c6
-	charmap "ù",         $c7
-	charmap "ú",         $c8
+;Accent letters
 	charmap "À",         $c9
 	charmap "Á",         $ca
 	charmap "È",         $cb
@@ -177,6 +169,15 @@
 	charmap "Ù",         $d1
 	charmap "Ú",         $d2
 	charmap "°",         $d3
+	charmap "à",         $d4
+	charmap "á",         $d5
+	charmap "è",         $d6
+	charmap "ì",         $d7
+	charmap "í",         $d8
+	charmap "ò",         $d9
+	charmap "ó",         $da
+	charmap "ù",         $db
+	charmap "ú",         $dc
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
