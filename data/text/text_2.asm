@@ -864,7 +864,6 @@ _HurtByLeechSeedText::
 
 _EnemyMonFaintedText::
 	text_ram wEnemyMonNick
-	text_start
 	text " nemico"
 	line "è esausto!"
 	prompt
