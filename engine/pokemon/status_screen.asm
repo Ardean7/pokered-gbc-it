@@ -218,7 +218,7 @@ Type2Text:
 	next ""
 	; fallthrough
 IDNoText:
-	db   "<ID>№/"
+	db   "№<ID>/"
 	next ""
 	; fallthrough
 OTText:
