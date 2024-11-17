@@ -157,10 +157,10 @@ _GymStatueText2::
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "I CENTRI #MON"
+	line "ricaricano i tuoi"
+	cont "#MON stanchi,"
+	cont "feriti o esausti!"
 	done
 
 _PewterCityPokecenterGuyText::
@@ -491,73 +491,77 @@ TMNotebookText::
 	text_end
 
 _TurnPageText::
-	text "Turn the page?"
+	text "Girare pagina?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	text "RAGAZZA: Ehi! Spii"
+	line "i miei appunti?!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "Guarda il"
+	line "quaderno!"
 
-	para "First page..."
+	para "Pagina uno..."
 
-	para "# BALLs are"
-	line "used to catch"
-	cont "#MON."
+	para "Le # BALL"
+	line "servono per"
+	cont "catturare"
+	cont "i #MON."
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Si possono portare"
+	line "fino a 6 #MON."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "L'allenatore è"
+	line "chi addestra"
+	cont "e fa lottare"
+	cont "i suoi #MON."
 	prompt
 
 _ViridianSchoolNotebookText2::
-	text "Second page..."
+	text "Pagina due..."
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "È dura catturare i"
+	line "#MON sani, è"
+	cont "meglio prima"
+	cont "indebolirli!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Scottature,"
+	line "veleno e altre"
+	cont "armi sono molto"
+	cont "efficaci!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page..."
+	text "Pagina tre..."
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "Ogni allenatore di"
+	line "#MON ne cerca"
+	cont "altri con cui"
+	cont "lottare."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "Le lotte con i"
+	line "#MON sono"
+	cont "sempre in corso"
+	cont "nelle PALESTRE."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page..."
+	text "Pagina quattro..."
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Lo scopo di tutti"
+	line "gli allenatori"
+	cont "è battere gli 8"
+	cont "CAPOPALESTRA"
+	cont "migliori."
 
-	para "Do so to earn the"
-	line "right to face..."
+	para "Solo così potrai"
+	line "sfidare..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "...i SUPERQUATTRO"
+	line "della LEGA"
+	cont "#MON!"
 	prompt
 
 _EnemiesOnEverySideText::
@@ -642,78 +646,85 @@ _LinkCableInfoText3::
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "La lavagna indica"
+	line "i cambiamenti di"
+	cont "STATO dei #MON"
+	cont "durante le lotte."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Che capitolo"
+	line "vuoi leggere?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "Un #MON non"
+	line "può attaccare"
+	cont "se sta dormendo!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "I #MON"
+	line "continuano a"
+	cont "dormire anche"
+	cont "dopo la lotta!"
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Usa la SVEGLIA"
+	line "per svegliarli!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "Se avvelenati,"
+	line "i #MON perdono"
+	cont "continuamente"
+	cont "energia."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Il veleno rimane"
+	line "nel loro corpo"
+	cont "dopo la lotta."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Usa un ANTIDOTO"
+	line "per curarlo!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "La paralisi può"
+	line "annullare certe"
+	cont "mosse!"
 
-	para "Paralysis remains"
-	line "after battles."
+	para "La paralisi"
+	line "permane anche"
+	cont "dopo la lotta."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Usa l'ANTIPARALISI"
+	line "per curarla."
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "Le scottature"
+	line "riducono potenza"
+	cont "e velocità, oltre"
+	cont "a causare danni"
+	cont "progressivi."
 
-	para "Burns remain"
-	line "after battles."
+	para "Le scottature"
+	line "persistono anche"
+	cont "dopo la lotta."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Il rimedio"
+	line "adatto è"
+	cont "l'ANTISCOTTATURA!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Se congelati,"
+	line "i #MON saranno"
+	cont "immobilizzati!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Rimarranno"
+	line "congelati anche"
+	cont "dopo la lotta."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Usa l'ANTIGELO"
+	line "per scongelarli!"
 	prompt
 
 _VermilionGymTrashText::
@@ -818,7 +829,7 @@ _ElevatorText::
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "MAPPA DELLE CITTÀ@"
 	text_end
 
 _PokemonStuffText::
@@ -894,16 +905,17 @@ _UseNextMonText::
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Sììì!"
+	line "Sono o non sono"
+	cont "grande?"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> non ha più"
+	line "#MON utili!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> è"
+	line "crollato!"
 	prompt
 
 _LinkBattleLostText::

@@ -27,11 +27,10 @@ _ItemUseBallText04::
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
-	line "@"
+	text "Benissimo! Hai"
+	line "preso @"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text "!@"
 	text_end
 
 _ItemUseBallText07::
