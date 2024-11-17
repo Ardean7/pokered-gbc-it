@@ -95,33 +95,33 @@ _FireDefrostedText::
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
+	text "Cresce @"
 	text_ram wStringBuffer
-	text "@"
+	text " di"
+	line "<USER>@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>di molto@"
 	text_end
 
 _RoseText::
-	text " rose!"
+	text "!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
+	text "Cala @"
 	text_ram wStringBuffer
-	text "@"
+	text " di"
+	line "<TARGET>@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>di molto@"
 	text_end
 
 _FellText::
-	text " fell!"
+	text "!"
 	prompt
 
 _RanFromBattleText::
