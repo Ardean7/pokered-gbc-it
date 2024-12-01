@@ -195,15 +195,16 @@ _CableClubNPCWelcomeText::
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Per favore,"
+	line "iscrivetevi!"
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Bisogna salvare il"
+	line "gioco prima del"
+	cont "collegamento."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Attendere prego.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
@@ -215,13 +216,13 @@ IF DEF(_RED_VC) || DEF(_BLUE_VC)
 	text "sed because of"
 	cont "inactivity."
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Collegamento"
+	line "interrotto per"
+	cont "inattività."
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Contatta il tuo"
+	line "amico e provate"
+	cont "un'altra volta!"
 	done

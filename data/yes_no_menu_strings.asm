@@ -38,7 +38,7 @@ TwoOptionMenuStrings:
 	next "EST@"
 
 .TradeCancelMenu:
-	db   "SCAMBIA"
+	db   "OK"
 	next "ESCI@"
 
 .HealCancelMenu:

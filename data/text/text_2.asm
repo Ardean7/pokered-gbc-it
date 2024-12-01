@@ -19,22 +19,22 @@ _AIBattleUseItemText::
 
 _TradeWentToText::
 	text_ram wStringBuffer
-	text " went"
-	line "to @"
+	text " va"
+	line "da @"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
-	line "@"
+	text "Per @"
 	text_ram wStringBuffer
-	text ","
+	text_start
+	line "di <PLAYER>,"
 	done
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " manda"
 	line "@"
 	text_ram wcd6d
 	text "."
@@ -42,36 +42,36 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " dice"
+	line "addio mentre"
 	done
 
 _TradeTransferredText::
 	text_ram wcd6d
-	text " is"
-	line "transferred."
+	text_start
+	line "è trasferito."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Prenditi cura di"
 	line "@"
 	text_ram wcd6d
-	text "."
+	text "!"
 	done
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text_start
+	line "scambia @"
 	text_ram wcd6d
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
-	line "@"
+	text "per @"
 	text_ram wStringBuffer
-	text "."
+	text_start
+	line "di <PLAYER>."
 	done
 
 _PlaySlotMachineText::
@@ -471,7 +471,7 @@ _GameCornerSomeonesKeysText::
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Un momento!"
 	done
 
 TMNotebookText::
@@ -1696,13 +1696,13 @@ _AccessedOaksPCText::
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Dove vuoi"
+	line "andare?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "Bene, un momento"
+	line "per favore."
 	done
 
 _LinkCanceledText::
@@ -1794,11 +1794,12 @@ _HisNameIsText::
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " e"
 	line "@"
 	text_ram wcd6d
-	text " will"
-	cont "be traded."
+	text_start
+	cont "saranno"
+	cont "scambiati."
 	done
 
 _TextIDErrorText::

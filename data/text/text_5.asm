@@ -1,5 +1,5 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Arrivederci!"
 	done
 
 _CableClubNPCMakingPreparationsText::
