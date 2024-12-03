@@ -883,7 +883,6 @@ _MoneyForWinningText::
 	text "<PLAYER> vince"
 	line "¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text_start
 	text "!"
 	prompt
 
@@ -1233,7 +1232,7 @@ _WithExpAllText::
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "ben"
 	cont "@"
 	text_end
 
@@ -1706,8 +1705,8 @@ _PleaseWaitText::
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Collegamento"
+	line "cancellato."
 	done
 
 _OakSpeechText1::

@@ -3,9 +3,9 @@ _CableClubNPCPleaseComeAgainText::
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Stiamo allestendo"
+	line "quest'area... un"
+	cont "po' di pazienza."
 	done
 
 _UsedStrengthText::
