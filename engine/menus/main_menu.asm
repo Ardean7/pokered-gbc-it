@@ -155,7 +155,7 @@ LinkMenu:
 	ld hl, wTopMenuItemY
 	ld a, $7
 	ld [hli], a
-	ld a, $6
+	ld a, $5
 	ld [hli], a
 	xor a
 	ld [hli], a
