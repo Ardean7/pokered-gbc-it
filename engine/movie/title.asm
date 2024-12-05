@@ -405,7 +405,7 @@ IF DEF(_RED)
 	db $60,$61,$62,$63,$64,$65,$66,$67,$68,$69,"@" ; "VERSIONE ROSSA"
 ENDC
 IF DEF(_BLUE)
-	db $60,$61,$62,$63,$64,$65,$66,$67,$68,"@" ; "VERSIONE BLU"
+	db $69,$60,$61,$62,$63,$64,$65,$66,$67,$68,"@" ; "VERSIONE BLU"
 ENDC
 
 DebugNewGamePlayerName:
