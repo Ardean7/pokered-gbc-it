@@ -814,7 +814,7 @@ MachopDexEntry:
 	text_end
 
 ZubatDexEntry:
-	db "PIPISTRELLO@"
+	db "PIPISTREL.@"
 	db 8
 	dw 75
 	text_far _ZubatDexEntry
@@ -947,7 +947,7 @@ HypnoDexEntry:
 	text_end
 
 GolbatDexEntry:
-	db "PIPISTRELLO@"
+	db "PIPISTREL.@"
 	db 16
 	dw 550
 	text_far _GolbatDexEntry

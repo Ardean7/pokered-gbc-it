@@ -4,7 +4,7 @@ _RhydonDexEntry::
 	next "può vivere in"
 
 	page "lava liquida a"
-	next "3.600 gradi."
+	next "3.600 gradi"
 	dex
 
 _KangaskhanDexEntry::
@@ -14,7 +14,7 @@ _KangaskhanDexEntry::
 
 	page "protettivo della"
 	next "madre fino all'"
-	next "età di 3 anni."
+	next "età di 3 anni"
 	dex
 
 _NidoranMDexEntry::
@@ -24,7 +24,7 @@ _NidoranMDexEntry::
 
 	page "grandi le corna,"
 	next "più potente sarà"
-	next "il suo veleno."
+	next "il suo veleno"
 	dex
 
 _ClefairyDexEntry::
@@ -34,7 +34,7 @@ _ClefairyDexEntry::
 
 	page "È raro e"
 	next "si trova solo"
-	next "in certe zone."
+	next "in certe zone"
 	dex
 
 _SpearowDexEntry::
@@ -44,7 +44,7 @@ _SpearowDexEntry::
 
 	page "aria sbatte le"
 	next "ali corte molto"
-	next "velocemente."
+	next "velocemente"
 	dex
 
 _VoltorbDexEntry::
@@ -54,7 +54,7 @@ _VoltorbDexEntry::
 
 	page "confuso con una"
 	next "# BALL, può"
-	next "essere fatale."
+	next "essere fatale"
 	dex
 
 _NidokingDexEntry::
@@ -64,7 +64,7 @@ _NidokingDexEntry::
 
 	page "stritolare la"
 	next "preda, poi le"
-	next "rompe le ossa."
+	next "rompe le ossa"
 	dex
 
 _SlowbroDexEntry::
@@ -74,7 +74,7 @@ _SlowbroDexEntry::
 
 	page "coda di SLOWPOKE"
 	next "si nutra degli"
-	next "avanzi di questo."
+	next "avanzi di questo"
 	dex
 
 _IvysaurDexEntry::
@@ -84,7 +84,7 @@ _IvysaurDexEntry::
 
 	page "non riuscire più"
 	next "a stare in"
-	next "posizione eretta."
+	next "posizione eretta"
 	dex
 
 _ExeggutorDexEntry::
@@ -94,7 +94,7 @@ _ExeggutorDexEntry::
 
 	page "teste si stacca e"
 	next "procede come un"
-	next "EXEGGCUTE."
+	next "EXEGGCUTE"
 	dex
 
 _LickitungDexEntry::
@@ -104,7 +104,7 @@ _LickitungDexEntry::
 
 	page "Le sue leccate"
 	next "provocano prurito"
-	next "e irritazioni."
+	next "e irritazioni"
 	dex
 
 _ExeggcuteDexEntry::
@@ -114,7 +114,7 @@ _ExeggcuteDexEntry::
 
 	page "raggruppano in"
 	next "fretta attaccando"
-	next "all'unisono."
+	next "all'unisono"
 	dex
 
 _GrimerDexEntry::
@@ -124,7 +124,7 @@ _GrimerDexEntry::
 
 	page "liquame inquinato"
 	next "scaricato dalle"
-	next "fabbriche."
+	next "fabbriche"
 	dex
 
 _GengarDexEntry::
@@ -134,7 +134,7 @@ _GengarDexEntry::
 
 	page "della gente e"
 	next "deridere il loro"
-	next "terrore."
+	next "terrore"
 	dex
 
 _NidoranFDexEntry::
@@ -144,7 +144,7 @@ _NidoranFDexEntry::
 
 	page "molto pericolosi."
 	next "La femmina ha"
-	next "corna più minute."
+	next "corna più minute"
 	dex
 
 _NidoqueenDexEntry::
@@ -154,7 +154,7 @@ _NidoqueenDexEntry::
 
 	page "mole per eseguire"
 	next "movimenti"
-	next "possenti."
+	next "possenti"
 	dex
 
 _CuboneDexEntry::
@@ -164,7 +164,7 @@ _CuboneDexEntry::
 
 	page "nessuno ha mai"
 	next "visto il suo"
-	next "vero muso."
+	next "vero muso"
 	dex
 
 _RhyhornDexEntry::
@@ -174,7 +174,7 @@ _RhyhornDexEntry::
 
 	page "umane. Può"
 	next "anche far volare"
-	next "un rimorchio."
+	next "un rimorchio"
 	dex
 
 _LaprasDexEntry::
@@ -184,7 +184,7 @@ _LaprasDexEntry::
 
 	page "#MON può"
 	next "traghettare la"
-	next "gente sull'acqua."
+	next "gente sull'acqua"
 	dex
 
 _ArcanineDexEntry::
@@ -193,7 +193,7 @@ _ArcanineDexEntry::
 	next "sua bellezza,"
 
 	page "corre veloce come"
-	next "se avesse le ali."
+	next "se avesse le ali"
 	dex
 
 _MewDexEntry::
@@ -203,7 +203,7 @@ _MewDexEntry::
 
 	page "un'illusione."
 	next "Solo qualcuno al"
-	next "mondo l'ha visto."
+	next "mondo l'ha visto"
 	dex
 
 _GyaradosDexEntry::
@@ -213,7 +213,7 @@ _GyaradosDexEntry::
 
 	page "può distruggere"
 	next "intere città in"
-	next "un solo attacco."
+	next "un solo attacco"
 	dex
 
 _ShellderDexEntry::
@@ -223,7 +223,7 @@ _ShellderDexEntry::
 
 	page "attacco. È vul-"
 	next "nerabile solo a"
-	next "guscio aperto."
+	next "guscio aperto"
 	dex
 
 _TentacoolDexEntry::
@@ -233,7 +233,7 @@ _TentacoolDexEntry::
 
 	page "per sbaglio,"
 	next "colpisce con un"
-	next "acido pungente."
+	next "acido pungente"
 	dex
 
 _GastlyDexEntry::
@@ -243,7 +243,7 @@ _GastlyDexEntry::
 
 	page "il nemico e lo"
 	next "addormenta"
-	next "senza preavviso."
+	next "senza preavviso"
 	dex
 
 _ScytherDexEntry::
@@ -253,7 +253,7 @@ _ScytherDexEntry::
 
 	page "illusione ottica"
 	next "che ce ne siano"
-	next "più di uno."
+	next "più di uno"
 	dex
 
 _StaryuDexEntry::
@@ -263,7 +263,7 @@ _StaryuDexEntry::
 
 	page "fatica qualsiasi"
 	next "appendice persa"
-	next "lottando."
+	next "lottando"
 	dex
 
 _BlastoiseDexEntry::
@@ -273,7 +273,7 @@ _BlastoiseDexEntry::
 
 	page "nella corazza."
 	next "Usato per"
-	next "attacchi rapidi."
+	next "attacchi rapidi"
 	dex
 
 _PinsirDexEntry::
@@ -283,7 +283,7 @@ _PinsirDexEntry::
 
 	page "chele, la sbatte"
 	next "e la scaglia via"
-	next "con violenza."
+	next "con violenza"
 	dex
 
 _TangelaDexEntry::
@@ -293,7 +293,7 @@ _TangelaDexEntry::
 
 	page "alghe marine, che"
 	next "ondeggiano"
-	next "quando cammina."
+	next "quando cammina"
 	dex
 
 _GrowlitheDexEntry::
@@ -303,7 +303,7 @@ _GrowlitheDexEntry::
 
 	page "abbaia e morde"
 	next "per respingere"
-	next "gli intrusi."
+	next "gli intrusi"
 	dex
 
 _OnixDexEntry::
@@ -313,7 +313,7 @@ _OnixDexEntry::
 
 	page "indurisce diven-"
 	next "tando simile a"
-	next "un diamante nero."
+	next "un diamante nero"
 	dex
 
 _FearowDexEntry::
@@ -323,7 +323,7 @@ _FearowDexEntry::
 
 	page "in aria senza mai"
 	next "dover atterrare"
-	next "per riposarsi."
+	next "per riposarsi"
 	dex
 
 _PidgeyDexEntry::
@@ -333,7 +333,7 @@ _PidgeyDexEntry::
 
 	page "livello del suolo"
 	next "per raccogliere"
-	next "sabbia accecante."
+	next "sabbia accecante"
 	dex
 
 _SlowpokeDexEntry::
@@ -343,7 +343,7 @@ _SlowpokeDexEntry::
 
 	page "a percepire il"
 	next "dolore dopo"
-	next "l'attacco."
+	next "l'attacco"
 	dex
 
 _KadabraDexEntry::
@@ -353,7 +353,7 @@ _KadabraDexEntry::
 
 	page "causano mal di"
 	next "testa a chi gli"
-	next "si avvicina."
+	next "si avvicina"
 	dex
 
 _GravelerDexEntry::
@@ -363,7 +363,7 @@ _GravelerDexEntry::
 
 	page "ostacolo senza"
 	next "frenare o mutare"
-	next "direzione."
+	next "direzione"
 	dex
 
 _ChanseyDexEntry::
@@ -373,7 +373,7 @@ _ChanseyDexEntry::
 
 	page "la felicità a"
 	next "chiunque riesca"
-	next "a catturarlo."
+	next "a catturarlo"
 	dex
 
 _MachokeDexEntry::
@@ -383,7 +383,7 @@ _MachokeDexEntry::
 
 	page "cintura antiforza"
 	next "per regolare i"
-	next "suoi movimenti."
+	next "suoi movimenti"
 	dex
 
 _MrMimeDexEntry::
@@ -393,7 +393,7 @@ _MrMimeDexEntry::
 
 	page "ripetutamente"
 	next "il nemico con le"
-	next "enormi mani."
+	next "enormi mani"
 	dex
 
 _HitmonleeDexEntry::
@@ -403,7 +403,7 @@ _HitmonleeDexEntry::
 
 	page "agilmente con"
 	next "falcate morbide"
-	next "e lunghissime."
+	next "e lunghissime"
 	dex
 
 _HitmonchanDexEntry::
@@ -413,7 +413,7 @@ _HitmonchanDexEntry::
 
 	page "di pugni, così"
 	next "veloci da essere"
-	next "invisibili."
+	next "invisibili"
 	dex
 
 _ArbokDexEntry::
@@ -423,7 +423,7 @@ _ArbokDexEntry::
 
 	page "sulla sua pancia"
 	next "varino da zona"
-	next "a zona."
+	next "a zona"
 	dex
 
 _ParasectDexEntry::
@@ -433,7 +433,7 @@ _ParasectDexEntry::
 
 	page "l'insetto-ospite."
 	next "Ama gli"
-	next "ambienti umidi."
+	next "ambienti umidi"
 	dex
 
 _PsyduckDexEntry::
@@ -443,7 +443,7 @@ _PsyduckDexEntry::
 
 	page "questo #MON"
 	next "astuto usa poteri"
-	next "psicocinetici."
+	next "psicocinetici"
 	dex
 
 _DrowzeeDexEntry::
@@ -453,7 +453,7 @@ _DrowzeeDexEntry::
 
 	page "sogni. A volte"
 	next "fa indigestione"
-	next "di incubi."
+	next "di incubi"
 	dex
 
 _GolemDexEntry::
@@ -463,7 +463,7 @@ _GolemDexEntry::
 
 	page "sioni dinamitarde"
 	next "senza subire"
-	next "alcun danno."
+	next "alcun danno"
 	dex
 
 _MagmarDexEntry::
@@ -473,7 +473,7 @@ _MagmarDexEntry::
 
 	page "consentono una"
 	next "mimesi perfetta"
-	next "tra le fiamme."
+	next "tra le fiamme"
 	dex
 
 _ElectabuzzDexEntry::
@@ -483,7 +483,7 @@ _ElectabuzzDexEntry::
 
 	page "si allontana può"
 	next "causare blackout"
-	next "gravi in città."
+	next "gravi in città"
 	dex
 
 _MagnetonDexEntry::
@@ -493,7 +493,7 @@ _MagnetonDexEntry::
 
 	page "quando si"
 	next "infiammano le"
-	next "macchie solari."
+	next "macchie solari"
 	dex
 
 _KoffingDexEntry::
@@ -503,7 +503,7 @@ _KoffingDexEntry::
 
 	page "corpo, può"
 	next "esplodere senza"
-	next "preavviso."
+	next "preavviso"
 	dex
 
 _MankeyDexEntry::
@@ -512,7 +512,7 @@ _MankeyDexEntry::
 	next "docilità all'ira"
 
 	page "nell'arco di"
-	next "un solo istante."
+	next "un solo istante"
 	dex
 
 _SeelDexEntry::
@@ -522,7 +522,7 @@ _SeelDexEntry::
 
 	page "duro. Lo usa per"
 	next "fendere lastroni"
-	next "di ghiaccio."
+	next "di ghiaccio"
 	dex
 
 _DiglettDexEntry::
@@ -532,7 +532,7 @@ _DiglettDexEntry::
 
 	page "di radici."
 	next "Talvolta compare"
-	next "in superficie."
+	next "in superficie"
 	dex
 
 _TaurosDexEntry::
@@ -542,7 +542,7 @@ _TaurosDexEntry::
 
 	page "frustando il suo"
 	next "corpo con la"
-	next "lunga coda."
+	next "lunga coda"
 	dex
 
 _FarfetchdDexEntry::
@@ -551,7 +551,7 @@ _FarfetchdDexEntry::
 	next "che brandisce è"
 
 	page "la sua arma, che"
-	next "usa come spada."
+	next "usa come spada"
 	dex
 
 _VenonatDexEntry::
@@ -561,7 +561,7 @@ _VenonatDexEntry::
 
 	page "insetti."
 	next "Di notte è atti-"
-	next "rato dalla luce."
+	next "rato dalla luce"
 	dex
 
 _DragoniteDexEntry::
@@ -571,7 +571,7 @@ _DragoniteDexEntry::
 
 	page "Si dice che sia"
 	next "intelligente"
-	next "come l'uomo."
+	next "come l'uomo"
 	dex
 
 _DoduoDexEntry::
@@ -581,7 +581,7 @@ _DoduoDexEntry::
 
 	page "corridore."
 	next "Lascia"
-	next "orme enormi."
+	next "orme enormi"
 	dex
 
 _PoliwagDexEntry::
@@ -591,7 +591,7 @@ _PoliwagDexEntry::
 
 	page "correre. Sembra"
 	next "preferire nuotare"
-	next "che correre."
+	next "che correre"
 	dex
 
 _JynxDexEntry::
@@ -601,7 +601,7 @@ _JynxDexEntry::
 
 	page "indurre la gente"
 	next "a seguirlo"
-	next "nella sua danza."
+	next "nella sua danza"
 	dex
 
 _MoltresDexEntry::
@@ -611,7 +611,7 @@ _MoltresDexEntry::
 
 	page "sbatte le ali"
 	next "crea scintillanti"
-	next "lingue infuocate."
+	next "lingue infuocate"
 	dex
 
 _ArticunoDexEntry::
@@ -621,7 +621,7 @@ _ArticunoDexEntry::
 
 	page "per atterrire chi"
 	next "si smarrisce"
-	next "sui ghiacciai."
+	next "sui ghiacciai"
 	dex
 
 _ZapdosDexEntry::
@@ -631,7 +631,7 @@ _ZapdosDexEntry::
 
 	page "tra le nuvole"
 	next "scagliando"
-	next "enormi saette."
+	next "enormi saette"
 	dex
 
 _DittoDexEntry::
@@ -641,7 +641,7 @@ _DittoDexEntry::
 
 	page "trasformarsi"
 	next "nella sua copia"
-	next "perfetta."
+	next "perfetta"
 	dex
 
 _MeowthDexEntry::
@@ -650,7 +650,7 @@ _MeowthDexEntry::
 	next "vaga per le vie"
 
 	page "in cerca di"
-	next "monetine perdute."
+	next "monetine perdute"
 	dex
 
 _KrabbyDexEntry::
@@ -660,7 +660,7 @@ _KrabbyDexEntry::
 
 	page "in equilibrio"
 	next "quando cammina"
-	next "lateralmente."
+	next "lateralmente"
 	dex
 
 _VulpixDexEntry::
@@ -670,7 +670,7 @@ _VulpixDexEntry::
 
 	page "il passare"
 	next "del tempo"
-	next "si moltiplica."
+	next "si moltiplica"
 	dex
 
 _NinetalesDexEntry::
@@ -680,7 +680,7 @@ _NinetalesDexEntry::
 
 	page "coda rischia"
 	next "una maledizione"
-	next "millenaria."
+	next "millenaria"
 	dex
 
 _PikachuDexEntry::
@@ -690,7 +690,7 @@ _PikachuDexEntry::
 
 	page "la loro energia"
 	next "può causare"
-	next "forti tempeste."
+	next "forti tempeste"
 	dex
 
 _RaichuDexEntry::
@@ -700,7 +700,7 @@ _RaichuDexEntry::
 
 	page "per proteggerlo"
 	next "dalla sua stessa"
-	next "alta tensione."
+	next "alta tensione"
 	dex
 
 _DratiniDexEntry::
@@ -709,7 +709,7 @@ _DratiniDexEntry::
 	next "poi trovata"
 
 	page "un'esigua colonia"
-	next "sottomarina."
+	next "sottomarina"
 	dex
 
 _DragonairDexEntry::
@@ -719,7 +719,7 @@ _DragonairDexEntry::
 
 	page "e ha la capacità"
 	next "di mutare"
-	next "il clima."
+	next "il clima"
 	dex
 
 _KabutoDexEntry::
@@ -729,7 +729,7 @@ _KabutoDexEntry::
 
 	page "in quello che un"
 	next "tempo era il"
-	next "fondo oceanico."
+	next "fondo oceanico"
 	dex
 
 _KabutopsDexEntry::
@@ -739,7 +739,7 @@ _KabutopsDexEntry::
 
 	page "la preda con le"
 	next "sue falci e ne"
-	next "beve il sangue."
+	next "beve il sangue"
 	dex
 
 _HorseaDexEntry::
@@ -749,7 +749,7 @@ _HorseaDexEntry::
 
 	page "d'inchiostro"
 	next "dalla superficie"
-	next "dell'acqua."
+	next "dell'acqua"
 	dex
 
 _SeadraDexEntry::
@@ -759,7 +759,7 @@ _SeadraDexEntry::
 
 	page "pinne pettorali"
 	next "ad ala e la sua"
-	next "robusta coda."
+	next "robusta coda"
 	dex
 
 _SandshrewDexEntry::
@@ -769,7 +769,7 @@ _SandshrewDexEntry::
 
 	page "dall'acqua."
 	next "Risale solo per"
-	next "cercare cibo."
+	next "cercare cibo"
 	dex
 
 _SandslashDexEntry::
@@ -779,7 +779,7 @@ _SandslashDexEntry::
 
 	page "spinosa può roto-"
 	next "lare, attaccare"
-	next "e scappare."
+	next "e scappare"
 	dex
 
 _OmanyteDexEntry::
@@ -789,7 +789,7 @@ _OmanyteDexEntry::
 
 	page "geneticamente"
 	next "resuscitato"
-	next "dai fossili."
+	next "dai fossili"
 	dex
 
 _OmastarDexEntry::
@@ -799,7 +799,7 @@ _OmastarDexEntry::
 
 	page "troppo pesante"
 	next "gli impediva"
-	next "la caccia."
+	next "la caccia"
 	dex
 
 _JigglypuffDexEntry::
@@ -809,7 +809,7 @@ _JigglypuffDexEntry::
 
 	page "misteriosa che"
 	next "addormenta"
-	next "i suoi nemici."
+	next "i suoi nemici"
 	dex
 
 _WigglytuffDexEntry::
@@ -819,7 +819,7 @@ _WigglytuffDexEntry::
 
 	page "arrabbia, aspira"
 	next "aria e si gonfia"
-	next "enormemente."
+	next "enormemente"
 	dex
 
 _EeveeDexEntry::
@@ -829,7 +829,7 @@ _EeveeDexEntry::
 
 	page "esposto alle"
 	next "radiazioni delle"
-	next "PIETRE elemento."
+	next "PIETRE elemento"
 	dex
 
 _FlareonDexEntry::
@@ -839,7 +839,7 @@ _FlareonDexEntry::
 
 	page "corporea può"
 	next "salire fino"
-	next "1600 gradi."
+	next "1600 gradi"
 	dex
 
 _JolteonDexEntry::
@@ -848,7 +848,7 @@ _JolteonDexEntry::
 	next "atmosfera per"
 
 	page "lanciare saette"
-	next "da 10000 volt."
+	next "da 10000 volt"
 	dex
 
 _VaporeonDexEntry::
@@ -858,7 +858,7 @@ _VaporeonDexEntry::
 
 	page "una pinna rugosa"
 	next "simile a quella"
-	next "di una sirena."
+	next "di una sirena"
 	dex
 
 _MachopDexEntry::
@@ -868,7 +868,7 @@ _MachopDexEntry::
 
 	page "arte marziale"
 	next "per essere sempre"
-	next "più forte."
+	next "più forte"
 	dex
 
 _ZubatDexEntry::
@@ -878,7 +878,7 @@ _ZubatDexEntry::
 
 	page "per identificare"
 	next "e avvicinarsi ai"
-	next "suoi obiettivi."
+	next "suoi obiettivi"
 	dex
 
 _EkansDexEntry::
@@ -888,7 +888,7 @@ _EkansDexEntry::
 
 	page "uova di uccelli"
 	next "tipo PIDGEY e"
-	next "SPEAROW."
+	next "SPEAROW"
 	dex
 
 _ParasDexEntry::
@@ -898,7 +898,7 @@ _ParasDexEntry::
 
 	page "I funghi sulla"
 	next "sua schiena"
-	next "sono parassiti."
+	next "sono parassiti"
 	dex
 
 _PoliwhirlDexEntry::
@@ -908,7 +908,7 @@ _PoliwhirlDexEntry::
 
 	page "dell'acqua suda"
 	next "per mantenere il"
-	next "suo corpo unto."
+	next "suo corpo unto"
 	dex
 
 _PoliwrathDexEntry::
@@ -918,7 +918,7 @@ _PoliwrathDexEntry::
 
 	page "supera facilmente"
 	next "i migliori"
-	next "nuotatori umani."
+	next "nuotatori umani"
 	dex
 
 _WeedleDexEntry::
@@ -928,7 +928,7 @@ _WeedleDexEntry::
 
 	page "Ha un velenoso"
 	next "pungiglione"
-	next "sulla testa."
+	next "sulla testa"
 	dex
 
 _KakunaDexEntry::
@@ -938,7 +938,7 @@ _KakunaDexEntry::
 
 	page "indurire la sua"
 	next "corazza per"
-	next "proteggersi."
+	next "proteggersi"
 	dex
 
 _BeedrillDexEntry::
@@ -948,7 +948,7 @@ _BeedrillDexEntry::
 
 	page "velenosi pungi-"
 	next "glioni sulla coda"
-	next "e sulle zampe."
+	next "e sulle zampe"
 	dex
 
 _DodrioDexEntry::
@@ -958,7 +958,7 @@ _DodrioDexEntry::
 
 	page "Mentre due teste"
 	next "dormono, la terza"
-	next "resta sveglia."
+	next "resta sveglia"
 	dex
 
 _PrimeapeDexEntry::
@@ -968,7 +968,7 @@ _PrimeapeDexEntry::
 
 	page "la sua preda"
 	next "finché non l'avrà"
-	next "catturata."
+	next "catturata"
 	dex
 
 _DugtrioDexEntry::
@@ -977,7 +977,7 @@ _DugtrioDexEntry::
 	next "terremoti"
 
 	page "scavando 80 km"
-	next "sotto terra."
+	next "sotto terra"
 	dex
 
 _VenomothDexEntry::
@@ -987,7 +987,7 @@ _VenomothDexEntry::
 
 	page "diverso a seconda"
 	next "del tipo di"
-	next "veleno posseduto."
+	next "veleno posseduto"
 	dex
 
 _DewgongDexEntry::
@@ -997,7 +997,7 @@ _DewgongDexEntry::
 
 	page "a 8 nodi costanti"
 	next "anche in acqua"
-	next "molto fredda."
+	next "molto fredda"
 	dex
 
 _CaterpieDexEntry::
@@ -1007,7 +1007,7 @@ _CaterpieDexEntry::
 
 	page "ventose per poter"
 	next "scalare sempre"
-	next "muri e salite."
+	next "muri e salite"
 	dex
 
 _MetapodDexEntry::
@@ -1017,7 +1017,7 @@ _MetapodDexEntry::
 
 	page "la corazza è"
 	next "morbida e il"
-	next "corpo fragile."
+	next "corpo fragile"
 	dex
 
 _ButterfreeDexEntry::
@@ -1027,7 +1027,7 @@ _ButterfreeDexEntry::
 
 	page "liberare le sue"
 	next "polveri tossiche"
-	next "nell'aria."
+	next "nell'aria"
 	dex
 
 _MachampDexEntry::
@@ -1037,7 +1037,7 @@ _MachampDexEntry::
 
 	page "da poter lanciare"
 	next "la vittima oltre"
-	next "l'orizzonte."
+	next "l'orizzonte"
 	dex
 
 _GolduckDexEntry::
@@ -1047,7 +1047,7 @@ _GolduckDexEntry::
 
 	page "a volte confuso"
 	next "con Kappa, mostro"
-	next "giapponese."
+	next "giapponese"
 	dex
 
 _HypnoDexEntry::
@@ -1057,7 +1057,7 @@ _HypnoDexEntry::
 
 	page "di PSICO-mosse"
 	next "come l'IPNOSI e"
-	next "la CONFUSIONE."
+	next "la CONFUSIONE"
 	dex
 
 _GolbatDexEntry::
@@ -1067,7 +1067,7 @@ _GolbatDexEntry::
 
 	page "sebbene diventi"
 	next "troppo pesante"
-	next "per volare."
+	next "per volare"
 	dex
 
 _MewtwoDexEntry::
@@ -1077,7 +1077,7 @@ _MewtwoDexEntry::
 
 	page "esperimenti di"
 	next "ingegneria"
-	next "genetica."
+	next "genetica"
 	dex
 
 _SnorlaxDexEntry::
@@ -1087,7 +1087,7 @@ _SnorlaxDexEntry::
 
 	page "della sua mole"
 	next "diventa sempre"
-	next "più indolente."
+	next "più indolente"
 	dex
 
 _MagikarpDexEntry::
@@ -1097,7 +1097,7 @@ _MagikarpDexEntry::
 
 	page "discendente,"
 	next "incredibilmente"
-	next "debole."
+	next "debole"
 	dex
 
 _MukDexEntry::
@@ -1107,7 +1107,7 @@ _MukDexEntry::
 
 	page "persino le sue"
 	next "impronte"
-	next "sono velenose."
+	next "sono velenose"
 	dex
 
 _KinglerDexEntry::
@@ -1117,7 +1117,7 @@ _KinglerDexEntry::
 
 	page "10000 cv, ma sono"
 	next "troppo grandi e"
-	next "poco maneggevoli."
+	next "poco maneggevoli"
 	dex
 
 _CloysterDexEntry::
@@ -1127,7 +1127,7 @@ _CloysterDexEntry::
 
 	page "corna. Non è"
 	next "mai stato visto"
-	next "internamente."
+	next "internamente"
 	dex
 
 _ElectrodeDexEntry::
@@ -1137,7 +1137,7 @@ _ElectrodeDexEntry::
 
 	page "Può esplodere"
 	next "alla minima"
-	next "provocazione."
+	next "provocazione"
 	dex
 
 _ClefableDexEntry::
@@ -1147,7 +1147,7 @@ _ClefableDexEntry::
 
 	page "si nasconde non"
 	next "appena avverte la"
-	next "presenza umana."
+	next "presenza umana"
 	dex
 
 _WeezingDexEntry::
@@ -1157,7 +1157,7 @@ _WeezingDexEntry::
 
 	page "2 KOFFING"
 	next "possono fondersi"
-	next "in un WEEZING."
+	next "in un WEEZING"
 	dex
 
 _PersianDexEntry::
@@ -1167,7 +1167,7 @@ _PersianDexEntry::
 
 	page "addomesticarlo"
 	next "per la volubile"
-	next "crudeltà."
+	next "crudeltà"
 	dex
 
 _MarowakDexEntry::
@@ -1177,7 +1177,7 @@ _MarowakDexEntry::
 
 	page "come un boomerang"
 	next "per mettere KO i"
-	next "suoi avversari."
+	next "suoi avversari"
 	dex
 
 _HaunterDexEntry::
@@ -1187,7 +1187,7 @@ _HaunterDexEntry::
 
 	page "si pensa venga"
 	next "da un'altra"
-	next "dimensione."
+	next "dimensione"
 	dex
 
 _AbraDexEntry::
@@ -1197,7 +1197,7 @@ _AbraDexEntry::
 
 	page "pericoli e si"
 	next "TELETRASPORTA in"
-	next "un luogo sicuro."
+	next "un luogo sicuro"
 	dex
 
 _AlakazamDexEntry::
@@ -1207,7 +1207,7 @@ _AlakazamDexEntry::
 
 	page "Il suo quoziente"
 	next "intellettivo"
-	next "è di 5000."
+	next "è di 5000"
 	dex
 
 _PidgeottoDexEntry::
@@ -1216,7 +1216,7 @@ _PidgeottoDexEntry::
 	next "territorio, becca"
 
 	page "ferocemente"
-	next "ogni intruso."
+	next "ogni intruso"
 	dex
 
 _PidgeotDexEntry::
@@ -1226,7 +1226,7 @@ _PidgeotDexEntry::
 
 	page "acqua e cattura"
 	next "ignare prede"
-	next "come MAGIKARP."
+	next "come MAGIKARP"
 	dex
 
 _StarmieDexEntry::
@@ -1236,7 +1236,7 @@ _StarmieDexEntry::
 
 	page "baleno. Qualcuno"
 	next "lo considera una"
-	next "pietra preziosa."
+	next "pietra preziosa"
 	dex
 
 _BulbasaurDexEntry::
@@ -1246,7 +1246,7 @@ _BulbasaurDexEntry::
 
 	page "alla nascita. La"
 	next "pianta sboccia e"
-	next "cresce con lui."
+	next "cresce con lui"
 	dex
 
 _VenusaurDexEntry::
@@ -1256,7 +1256,7 @@ _VenusaurDexEntry::
 
 	page "È sempre in"
 	next "movimento in"
-	next "cerca di luce."
+	next "cerca di luce"
 	dex
 
 _TentacruelDexEntry::
@@ -1266,7 +1266,7 @@ _TentacruelDexEntry::
 
 	page "per catturare e"
 	next "immobilizzare"
-	next "la preda."
+	next "la preda"
 	dex
 
 _GoldeenDexEntry::
@@ -1276,7 +1276,7 @@ _GoldeenDexEntry::
 
 	page "vestito da ballo,"
 	next "da cui il nome"
-	next "Regina d'Acqua."
+	next "Regina d'Acqua"
 	dex
 
 _SeakingDexEntry::
@@ -1286,7 +1286,7 @@ _SeakingDexEntry::
 
 	page "risalire"
 	next "impetuoso fiumi"
-	next "e torrenti."
+	next "e torrenti"
 	dex
 
 _PonytaDexEntry::
@@ -1296,7 +1296,7 @@ _PonytaDexEntry::
 
 	page "Può schiacciare"
 	next "qualsiasi cosa in"
-	next "pochissimo tempo."
+	next "pochissimo tempo"
 	dex
 
 _RapidashDexEntry::
@@ -1306,7 +1306,7 @@ _RapidashDexEntry::
 
 	page "ciò che si muove"
 	next "veloce, sperando"
-	next "di superarlo."
+	next "di superarlo"
 	dex
 
 _RattataDexEntry::
@@ -1316,7 +1316,7 @@ _RattataDexEntry::
 
 	page "si vede"
 	next "comumemente"
-	next "in molti luoghi."
+	next "in molti luoghi"
 	dex
 
 _RaticateDexEntry::
@@ -1326,7 +1326,7 @@ _RaticateDexEntry::
 
 	page "Sembra diventare"
 	next "più lento se gli"
-	next "vengono tagliati."
+	next "vengono tagliati"
 	dex
 
 _NidorinoDexEntry::
@@ -1336,7 +1336,7 @@ _NidorinoDexEntry::
 
 	page "secerne un veleno"
 	next "potente dal corno"
-	next "sulla testa."
+	next "sulla testa"
 	dex
 
 _NidorinaDexEntry::
@@ -1346,7 +1346,7 @@ _NidorinaDexEntry::
 
 	page "Ama gli attacchi"
 	next "fisici come"
-	next "graffi e morsi."
+	next "graffi e morsi"
 	dex
 
 _GeodudeDexEntry::
@@ -1356,7 +1356,7 @@ _GeodudeDexEntry::
 
 	page "una roccia, può"
 	next "succedere di"
-	next "inciamparvi."
+	next "inciamparvi"
 	dex
 
 _PorygonDexEntry::
@@ -1366,7 +1366,7 @@ _PorygonDexEntry::
 
 	page "può muoversi"
 	next "liberamente"
-	next "nel ciberspazio."
+	next "nel ciberspazio"
 	dex
 
 _AerodactylDexEntry::
@@ -1376,7 +1376,7 @@ _AerodactylDexEntry::
 
 	page "gola con le sue"
 	next "zanne affilate"
-	next "come una sega."
+	next "come una sega"
 	dex
 
 _MagnemiteDexEntry::
@@ -1386,7 +1386,7 @@ _MagnemiteDexEntry::
 
 	page "senza preavviso"
 	next "usando TUONONDA"
-	next "e mosse simili."
+	next "e mosse simili"
 	dex
 
 _CharmanderDexEntry::
@@ -1396,7 +1396,7 @@ _CharmanderDexEntry::
 
 	page "gli esca vapore"
 	next "dalla punta"
-	next "della coda."
+	next "della coda"
 	dex
 
 _SquirtleDexEntry::
@@ -1406,7 +1406,7 @@ _SquirtleDexEntry::
 
 	page "conchiglia. Sputa"
 	next "potente schiuma"
-	next "dalla bocca."
+	next "dalla bocca"
 	dex
 
 _CharmeleonDexEntry::
@@ -1416,7 +1416,7 @@ _CharmeleonDexEntry::
 
 	page "la temperatura"
 	next "a livelli"
-	next "insostenibili."
+	next "insostenibili"
 	dex
 
 _WartortleDexEntry::
@@ -1426,7 +1426,7 @@ _WartortleDexEntry::
 
 	page "Nuota veloce e"
 	next "muove le orecchie"
-	next "per bilanciarsi."
+	next "per bilanciarsi"
 	dex
 
 _CharizardDexEntry::
@@ -1436,7 +1436,7 @@ _CharizardDexEntry::
 
 	page "incendi boschivi"
 	next "senza averne"
-	next "l'intenzione."
+	next "l'intenzione"
 	dex
 
 _OddishDexEntry::
@@ -1445,7 +1445,7 @@ _OddishDexEntry::
 	next "terra. Di notte"
 
 	page "vaga spargendo"
-	next "le sue sementi."
+	next "le sue sementi"
 	dex
 
 _GloomDexEntry::
@@ -1455,7 +1455,7 @@ _GloomDexEntry::
 
 	page "nettare usato"
 	next "per attirare"
-	next "le prede."
+	next "le prede"
 	dex
 
 _VileplumeDexEntry::
@@ -1465,7 +1465,7 @@ _VileplumeDexEntry::
 
 	page "co contenuto."
 	next "Fatica a reggere"
-	next "la testa pesante."
+	next "la testa pesante"
 	dex
 
 _BellsproutDexEntry::
@@ -1475,7 +1475,7 @@ _BellsproutDexEntry::
 
 	page "Usa le radici"
 	next "per assorbire"
-	next "l'umidità."
+	next "l'umidità"
 	dex
 
 _WeepinbellDexEntry::
@@ -1485,7 +1485,7 @@ _WeepinbellDexEntry::
 
 	page "nemico e poi lo"
 	next "finisce con"
-	next "il suo ACIDO."
+	next "il suo ACIDO"
 	dex
 
 _VictreebelDexEntry::
@@ -1495,5 +1495,5 @@ _VictreebelDexEntry::
 
 	page "ma nessuno è mai"
 	next "tornato da lì per"
-	next "raccontarlo."
+	next "raccontarlo"
 	dex
