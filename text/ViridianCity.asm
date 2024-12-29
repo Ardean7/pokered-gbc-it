@@ -67,36 +67,36 @@ _ViridianCityOldManSleepyPrivatePropertyText::
 	done
 
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Ahou! Devo aver"
+	line "preso sonno"
+	cont "al sole."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Ho sognato che un"
+	line "DROWZEE si"
+	cont "mangiava i miei"
+	cont "sogni. E questa?"
+	cont "Da dove sbuca"
+	cont "questa MT?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Che strano!"
+	line "Tieni, puoi"
+	cont "prenderla tu."
 	prompt
 
 _ViridianCityFisherReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@"
+	text "<PLAYER> riceve"
+	line "la MT42!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "La MT42 contiene"
+	line "il MANGIASOGNI..."
+	cont "...Ronf ronf..."
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Hai già troppe"
+	line "cose con te."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
