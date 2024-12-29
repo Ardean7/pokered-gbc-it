@@ -772,9 +772,9 @@ _FoundHiddenItemText::
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "Però, <PLAYER> non"
+	line "ha più spazio per"
+	cont "altri strumenti!"
 	done
 
 _FoundHiddenCoinsText::
@@ -1011,22 +1011,22 @@ _GetOutText::
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "dorme!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "si è svegliato!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "è congelato!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "è paralizzato!"
 	prompt
 
 _FlinchedText::
@@ -1258,11 +1258,9 @@ _WildMonAppearedText::
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
-	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	line "pescato attacca!"
 	prompt
 
 _EnemyAppearedText::
@@ -1407,44 +1405,44 @@ _PotionText::
 
 _AntidoteText::
 	text_ram wcd6d
-	text " was"
-	line "cured of poison!"
+	text_start
+	line "è disintossicato!"
 	done
 
 _ParlyzHealText::
 	text_ram wcd6d
-	text "'s"
-	line "rid of paralysis!"
+	text " non è"
+	line "più paralizzato!"
 	done
 
 _BurnHealText::
 	text_ram wcd6d
-	text "'s"
-	line "burn was healed!"
+	text " non è"
+	line "più bruciato!"
 	done
 
 _IceHealText::
 	text_ram wcd6d
-	text " was"
-	line "defrosted!"
+	text_start
+	line "è scongelato!"
 	done
 
 _AwakeningText::
 	text_ram wcd6d
 	text_start
-	line "woke up!"
+	line "si è svegliato!"
 	done
 
 _FullHealText::
 	text_ram wcd6d
-	text "'s"
-	line "health returned!"
+	text_start
+	line "è in piena forma!"
 	done
 
 _ReviveText::
 	text_ram wcd6d
 	text_start
-	line "is revitalized!"
+	line "è rivitalizzato!"
 	done
 
 _RareCandyText::

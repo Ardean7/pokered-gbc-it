@@ -24,13 +24,13 @@ _NoNibbleText::
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Sembra che non ci"
+	line "sia niente qua!"
 	prompt
 
 _ItsABiteText::
 	text "Oh!"
-	line "It's a bite!"
+	line "Ha abboccato!!!"
 	prompt
 
 _ExclamationText::

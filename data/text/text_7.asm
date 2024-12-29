@@ -8,7 +8,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> sale sulla@"
 	text_end
 
 _GotOnBicycleText2::
@@ -17,11 +17,11 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> scende@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "dalla @"
 	text_ram wStringBuffer
 	text "."
 	prompt
