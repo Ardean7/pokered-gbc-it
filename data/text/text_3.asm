@@ -71,7 +71,7 @@ _AlreadyAsleepText::
 
 _PoisonedText::
 	text "<TARGET>"
-	line "was poisoned!"
+	line "è avvelenato!"
 	prompt
 
 _BadlyPoisonedText::
@@ -81,7 +81,7 @@ _BadlyPoisonedText::
 
 _BurnedText::
 	text "<TARGET>"
-	line "was burned!"
+	line "è stato scottato!"
 	prompt
 
 _FrozenText::
@@ -203,7 +203,7 @@ _NoEffectText::
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Attacco fallito! "
 	prompt
 
 _DidntAffectText::
@@ -249,17 +249,17 @@ _GettingPumpedText::
 
 _WasSeededText::
 	text "<TARGET>"
-	line "was seeded!"
+	line "è pieno di semi!"
 	prompt
 
 _EvadedAttackText::
 	text "<TARGET>"
-	line "evaded attack!"
+	line "schiva l'attacco!"
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "Contraccolpo su"
+	line "<USER>"
 	prompt
 
 _ConvertedTypeText::

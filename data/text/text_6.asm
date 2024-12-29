@@ -35,21 +35,21 @@ _ItemUseBallText05::
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text_start
+	line "è trasferito al"
+	cont "PC di BILL!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text_start
+	line "è trasferito al"
+	cont "PC di ???!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Aggiornamento"
+	line "#DEX per"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"

@@ -1,5 +1,5 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> usa@"
 	text_end
 
 _ItemUseText002::

@@ -6,7 +6,7 @@ _PokemartGreetingText::
 _PokemonFaintedText::
 	text_ram wcd6d
 	text_start
-	line "fainted!"
+	line "esausto!"
 	done
 
 _PlayerBlackedOutText::

@@ -765,7 +765,7 @@ _VermilionGymTrashFailText::
 	text_end
 
 _FoundHiddenItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> trova"
 	line "@"
 	text_ram wcd6d
 	text "!@"
@@ -859,18 +859,19 @@ _EnemyRanText::
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "Il veleno"
+	line "ha effetto!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "La scottatura"
+	line "brucia!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
-	line "<USER>!"
+	text "PARASSISEME"
+	line "toglie energia a"
+	cont "<USER>"
 	prompt
 
 _EnemyMonFaintedText::
@@ -900,7 +901,7 @@ _PlayerMonFaintedText::
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Usarne un altro?"
 	done
 
 _Rival1WinText::
@@ -926,14 +927,14 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text_start
+	line "sta per usare"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "<PLAYER>, vuoi"
+	line "cambiare #MON?"
 	done
 
 _TrainerSentOutText::
@@ -945,8 +946,8 @@ _TrainerSentOutText::
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Troppo esausto"
+	line "per lottare!"
 	prompt
 
 _CantEscapeText::
@@ -975,8 +976,8 @@ _AlreadyOutText::
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Non hai più PP per"
+	line "questa mossa!"
 	prompt
 
 _MoveDisabledText::
@@ -986,8 +987,8 @@ _MoveDisabledText::
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " non ha"
+	line "più mosse utili."
 	done
 
 _MultiHitText::
@@ -1135,8 +1136,8 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "fallisce!"
 	prompt
 
 _KeptGoingAndCrashedText::
@@ -1292,16 +1293,16 @@ _GoText::
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Dai! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Dai! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Nemico debole!"
+	line "Dai! @"
 	text_end
 
 _PlayerMon1Text::
@@ -1323,7 +1324,7 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "bene!@"
 	text_end
 
 _ComeBackText::
@@ -1332,13 +1333,12 @@ _ComeBackText::
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "È superefficace!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "Non è molto"
+	line "efficace..."
 	prompt
 
 _SafariZoneEatingText::
@@ -1383,8 +1383,8 @@ _PartyMenuItemUseText::
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Che #MON"
+	line "vuoi usare?"
 	done
 
 _PartyMenuUseTMText::
@@ -1399,8 +1399,8 @@ _PartyMenuSwapMonText::
 
 _PotionText::
 	text_ram wcd6d
-	text_start
-	line "recovered by @"
+	text " si"
+	line "è ripreso di @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
