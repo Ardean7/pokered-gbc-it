@@ -203,12 +203,12 @@ _ItemUseNoEffectText::
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "L'allenatore ha"
+	line "bloccato la BALL!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Non fare il ladro!"
 	prompt
 
 _NoCyclingAllowedHereText::
@@ -224,7 +224,8 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "Il #MON BOX è"
+	line "pieno! Non puoi"
+	cont "usare quello"
+	cont "strumento!"
 	prompt

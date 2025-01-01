@@ -1574,8 +1574,8 @@ _DepositWhichMonText::
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " deposi-"
+	line "tato nel Box @"
 	text_ram wBoxNumString
 	text "."
 	prompt
@@ -1586,15 +1586,16 @@ _CantDepositLastMonText::
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Ups! Questo Box è"
+	line "pieno di #MON!"
 	prompt
 
 _MonIsTakenOutText::
+	text "Hai ritirato"
+	line "@"
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text "."
+	cont "Hai @"
 	text_ram wStringBuffer
 	text "."
 	prompt
@@ -1605,11 +1606,11 @@ _NoMonText::
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Non puoi prendere"
+	line "altri #MON."
 
-	para "Deposit #MON"
-	line "first."
+	para "Prima depositane"
+	line "qualcuno."
 	prompt
 
 _ReleaseWhichMonText::
@@ -1618,18 +1619,16 @@ _ReleaseWhichMonText::
 	done
 
 _OnceReleasedText::
-	text "Once released,"
-	line "@"
-	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text "Se lo liberi,"
+	line "non tornerà più."
+	cont "D'accordo?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " è"
+	line "stato liberato."
+	cont "Ciao @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
