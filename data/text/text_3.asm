@@ -35,28 +35,28 @@ _ChooseABoxText::
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " diventa"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "@"
 	text_ram wcd6d
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Hm? @"
 	text_ram wStringBuffer
-	text_start
-	line "stopped evolving!"
+	text " non"
+	line "si evolve più!"
 	prompt
 
 _IsEvolvingText::
-	text "What? @"
+	text "Ehi! @"
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "si evolve!"
 	done
 
 _FellAsleepText::
@@ -217,9 +217,9 @@ _IsUnaffectedText::
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET>"
+	line "è paralizzato!"
+	cont "Attacco incerto!"
 	prompt
 
 _SubstituteText::
