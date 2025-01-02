@@ -48,6 +48,7 @@ _ViridianForestYoungster4BattleText::
 	done
 
 _ViridianForestYoungster4EndBattleText::
+	text_start
 	line "Mi arrendo! Sei"
 	cont "proprio forte!"
 	prompt
