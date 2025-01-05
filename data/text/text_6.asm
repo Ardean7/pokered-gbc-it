@@ -56,28 +56,28 @@ _ItemUseBallText06::
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
+	text "<PLAYER> sale su"
 	line "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Non si può"
+	line "scendere qui!"
 	prompt
 
 _VitaminStatRoseText::
-	text_ram wcd6d
-	text "'s"
-	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " di"
+	line "@"
+	text_ram wcd6d
+	text " sale."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Non avrà alcun"
+	line "effetto."
 	prompt
 
 _ThrewBaitText::
@@ -127,60 +127,63 @@ _ItemfinderFoundNothingText::
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Aumenta PP di"
+	line "quale tecnica?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Ricarica PP di"
+	line "quale tecnica?"
 	done
 
 _PPMaxedOutText::
+	text "PP di @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text_start
+	line "sono al massimo."
 	prompt
 
 _PPIncreasedText::
+	text "PP di @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text_start
+	line "aumentati."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PP ricaricati."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Prelevata una MT!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Prelevata una MN."
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Contiene"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "Insegnare"
+	line "@"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	cont "a un #MON?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wcd6d
-	text " is not"
-	line "compatible with"
+	text " non"
+	line "compatibile con"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "Non può imparare"
 	line "@"
 	text_ram wStringBuffer
 	text "."
@@ -217,10 +220,10 @@ _NoCyclingAllowedHereText::
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
+	text "Niente SURF su"
 	line "@"
 	text_ram wcd6d
-	text " here!"
+	text " qui!"
 	prompt
 
 _BoxFullCannotThrowBallText::

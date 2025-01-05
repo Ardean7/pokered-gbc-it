@@ -87,12 +87,12 @@ _LearnedMove1Text::
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Quale mossa deve"
+	next "dimenticare?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
+	text "Stop apprendimento"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
@@ -101,7 +101,7 @@ _AbandonLearningText::
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "non ha appreso"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
@@ -109,48 +109,49 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text_start
+	line "cerca di imparare"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "But, @"
+	para "Ma @"
 	text_ram wLearnMoveMonName
-	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	text " non"
+	line "può imparare più"
+	cont "di 4 mosse!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Eliminare una"
+	line "vecchia mossa"
+	cont "per fare spazio a"
+	cont "@"
 	text_ram wStringBuffer
 	text "?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 e...@"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text " puff!@"
 	text_end
 
 _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " scorda"
 	line "@"
 	text_ram wcd6d
 	text "!"
 
-	para "And..."
+	para "E..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "Le MN non sono"
+	line "eliminabili!"
 	prompt
 
 _PokemonCenterWelcomeText::

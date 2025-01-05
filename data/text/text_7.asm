@@ -47,7 +47,7 @@ _TooImportantToTossText::
 
 _AlreadyKnowsText::
 	text_ram wcd6d
-	text " knows"
+	text " sa già"
 	line "@"
 	text_ram wStringBuffer
 	text "!"

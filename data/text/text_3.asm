@@ -126,7 +126,7 @@ _FellText::
 
 _RanFromBattleText::
 	text "<USER>"
-	line "ran from battle!"
+	line "lascia il campo!"
 	prompt
 
 _RanAwayScaredText::
@@ -175,7 +175,7 @@ _DugAHoleText::
 
 _BecameConfusedText::
 	text "<TARGET>"
-	line "became confused!"
+	line "è confuso!"
 	prompt
 
 _MimicLearnedMoveText::

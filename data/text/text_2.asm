@@ -1046,17 +1046,17 @@ _DisabledNoMoreText::
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "è confuso!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Così confuso da"
+	line "colpirsi da solo!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "non è più confuso"
 	prompt
 
 _SavingEnergyText::
@@ -1107,7 +1107,7 @@ _Used2Text::
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "invece"
 	cont "@"
 	text_end
 
@@ -1152,7 +1152,7 @@ _UnaffectedText::
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "Non ha effetto su"
 	line "<TARGET>!"
 	prompt
 
@@ -1166,32 +1166,32 @@ _OHKOText::
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text_start
+	line "sta ciondolando."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text_start
+	line "fa un riposino!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text_start
+	line "non obbedisce!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text_start
+	line "se ne va!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "ignora l'ordine!"
 	prompt
 
 _SubstituteTookDamageText::
@@ -1386,8 +1386,8 @@ _PartyMenuBattleText::
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "Su quale #MON"
+	line "usare la MT?"
 	done
 
 _PartyMenuSwapMonText::
