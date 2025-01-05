@@ -177,7 +177,7 @@ PlaceCommandCharacter::
 	jp PlaceNextChar
 
 TMCharText::      db "MT@"
-TrainerCharText:: db "ALLENATORE@"
+TrainerCharText:: db "ALLEN.@"
 PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
