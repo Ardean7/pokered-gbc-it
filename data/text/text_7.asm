@@ -54,56 +54,55 @@ _AlreadyKnowsText::
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "OK! Connetti il"
+	line "cavo così!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> scambia"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " con"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
 	text "!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
+	text "Cerco @"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
-
-	para "trade one for"
-	line "@"
+	text "!"
+	line "Vuoi scambiarlo"
+	cont "con @"
 	text_ram wInGameTradeReceiveMonName
-	text "? "
+	text "?"
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "Oh!"
+	line "Va beh!..."
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "Questo non è"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Quando ne hai uno"
+	line "torna da me!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Grazie mille!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
+	text "Non è forte il"
+	line "mio vecchio"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text "?"
 	done
 
 _WannaTrade2Text::
@@ -189,12 +188,12 @@ _AfterTrade3Text::
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Non c'è niente da"
+	line "TAGLIARE qui!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
-	text " hacked"
-	line "away with CUT!"
+	text_start
+	line "TAGLIA tutto!"
 	prompt
