@@ -1,7 +1,7 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " riti-"
+	line "ra @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -9,10 +9,10 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "usa @"
 	text_ram wcd6d
 	text_start
-	cont "on @"
+	cont "su @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -164,14 +164,14 @@ _ViridianCityPokecenterGuyText::
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "Uaho!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "Quando JIGGLYPUFF"
+	line "canta, i #MON"
+	cont "si addormentano!"
 
-	para "...Me too..."
-	line "Snore..."
+	para "...Anch'io..."
+	line "Ronf... ronf..."
 	done
 
 _CeruleanPokecenterGuyText::
@@ -600,15 +600,15 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fossile AERODACTYL"
+	line "un raro #MON"
+	cont "primitivo."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fossile KABUTOPS,"
+	line "un raro #MON"
+	cont "primitivo."
 	done
 
 _LinkCableHelpText1::
