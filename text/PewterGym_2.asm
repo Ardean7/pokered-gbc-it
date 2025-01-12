@@ -53,7 +53,7 @@ _PewterGymTM34NoRoomText::
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "BROCK: Ti avevo"
+	text "Ti avevo"
 	line "sottovalutato!"
 
 	para "Quale premio per"
