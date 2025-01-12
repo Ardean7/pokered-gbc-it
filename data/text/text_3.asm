@@ -207,7 +207,7 @@ _ButItFailedText::
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
+	text "Non ha effetto su"
 	line "<TARGET>!"
 	prompt
 
