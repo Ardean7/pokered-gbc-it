@@ -75,32 +75,32 @@ _CannotGetOffHereText::
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> ha"
 	line "@"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Non c'è spazio per"
+	line "altri #MON!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text_start
+	cont "viene inviato al"
+	cont "BOX N°@"
 	text_ram wStringBuffer
-	text " on PC!"
+	text " del PC!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Non c'è spazio per"
+	line "altri #MON!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "Il #MON BOX è"
+	line "pieno e non ne"
+	cont "accetta più!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Cambia il BOX al"
+	line "CENTRO #MON!"
 	done

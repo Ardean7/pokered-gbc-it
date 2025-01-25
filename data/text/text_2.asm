@@ -191,10 +191,9 @@ _LavenderPokecenterGuyText::
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "Se hai troppi"
+	line "#MON,"
+	cont "riponili nel PC!"
 	done
 
 _RockTunnelPokecenterGuyText::
@@ -1066,7 +1065,7 @@ _SavingEnergyText::
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "libera energia!"
 	prompt
 
 _ThrashingAboutText::

@@ -61,12 +61,12 @@ _IsEvolvingText::
 
 _FellAsleepText::
 	text "<TARGET>"
-	line "fell asleep!"
+	line "s'è addormentato!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "sta dormendo!"
 	prompt
 
 _PoisonedText::
@@ -313,7 +313,7 @@ _ShroudedInMistText::
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
+	text "Succhia energia da"
 	line "<TARGET>!"
 	prompt
 
