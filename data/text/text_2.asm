@@ -175,11 +175,11 @@ _PewterCityPokecenterGuyText::
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
+	text "BILL ha moltissimi"
 	line "#MON!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "E alcuni sono"
+	line "rarissimi!"
 	done
 
 _LavenderPokecenterGuyText::
