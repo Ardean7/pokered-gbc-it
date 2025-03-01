@@ -59,44 +59,45 @@ _CeruleanCityRivalIWentToBillsText::
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "Ehi! Fuori! Non ti"
+	line "è permesso stare"
+	cont "qui... Chi? Io?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Sono un semplice"
+	line "spettatore!"
+	cont "Non mi credi?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
-	line "TM28!@"
+	text "<PLAYER> recupera"
+	line "la MT28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Meglio che mi"
+	line "sbrighi! Ciao!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Fai spazio"
+	line "per questo!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "Non posso andare"
+	line "finché non te"
+	cont "l'ho dato!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
 	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	line "Mi arrendo! Me ne"
+	cont "vado in silenzio!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "OK! Restituirò la"
+	line "MT che ho rubato!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
