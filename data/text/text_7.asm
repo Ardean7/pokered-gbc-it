@@ -106,43 +106,43 @@ _AfterTrade1Text::
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Ciao! Vuoi"
+	line "scambiare il"
 
-	para "your @"
+	para "tuo @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "con @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Va beh! Se non"
+	line "vuoi..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Questo non è"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Quando ne hai uno"
+	line "pensa a me."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Grazie!"
 	done
 
 _AfterTrade2Text::
-	text "The @"
+	text "Il @"
 	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
+	text_start
+	line "che mi hai dato"
 
-	para "went and evolved!"
+	para "è cresciuto!"
 	done
 
 _WannaTrade3Text::
