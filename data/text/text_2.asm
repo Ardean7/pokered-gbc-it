@@ -1074,13 +1074,13 @@ _ThrashingAboutText::
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>"
+	line "attacca ancora!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "è immobilizzato!"
 	prompt
 
 _MoveIsDisabledText::
