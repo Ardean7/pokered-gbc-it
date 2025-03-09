@@ -1,29 +1,30 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ha schivato la"
+	line "BALL!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Questo #MON"
+	line "non può essere"
+	cont "catturato!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Ti è sfuggito"
+	line "il #MON!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Oh no! Il #MON"
+	line "si è liberato!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Ah! Sembrava preso"
+	line "eh?... Invece no! "
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Colpisci! Era"
+	line "così vicino!"
 	prompt
 
 _ItemUseBallText05::
@@ -81,49 +82,50 @@ _VitaminNoEffectText::
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> lancia"
+	line "l'ESCA."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> lancia"
+	line "un SASSO."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Ha suonato il"
+	line "# FLAUTO."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "È una melodia"
+	line "orecchiabile!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Tutti i #MON"
+	line "addormentati si"
+	cont "sono svegliati."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> suona"
+	line "il # FLAUTO.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
-	line "@"
+	text "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " "
+	text_start
+	line "gettoni."
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Bene! Il DETECTOR"
+	line "ha rilevato uno"
+	cont "strumento vicino!"
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "No! Il DETECTOR"
+	line "non risponde."
 	prompt
 
 _RaisePPWhichTechniqueText::
