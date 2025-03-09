@@ -146,45 +146,47 @@ _AfterTrade2Text::
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Ciao! Hai"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Vuoi scambiarlo"
+	line "con @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Che sfortuna!"
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "Questo non è"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Quando ne hai uno"
+	line "scambialo con me!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Grazie mille!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
-	line "@"
+	text "Come sta il"
+	line "mio vecchio"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "Il mio caro"
+	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text_start
+	cont "sta divinamente!"
 	done
 
 _NothingToCutText::
