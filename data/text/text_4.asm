@@ -10,16 +10,16 @@ _PokemonFaintedText::
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> non ha più"
+	line "#MON utili!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> è"
+	line "fuori gioco!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "Finito l'effetto"
+	line "del REPELLENTE."
 	done
 
 _PokemartBuyingGreetingText::

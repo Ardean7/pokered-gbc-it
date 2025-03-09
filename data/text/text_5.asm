@@ -21,8 +21,8 @@ _CanMoveBouldersText::
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "La corrente è"
+	line "troppo forte!"
 	prompt
 
 _CyclingIsFunText::
@@ -65,13 +65,13 @@ _NewBadgeRequiredText::
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Non puoi usare"
+	line "strumenti qui."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Non puoi"
+	line "scendere qui."
 	prompt
 
 _GotMonText::
