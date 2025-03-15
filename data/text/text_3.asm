@@ -75,8 +75,8 @@ _PoisonedText::
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "è iperavvelenato!"
 	prompt
 
 _BurnedText::
@@ -86,11 +86,11 @@ _BurnedText::
 
 _FrozenText::
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "è congelato!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
+	text "Il fuoco scongela"
 	line "<TARGET>!"
 	prompt
 
@@ -131,12 +131,12 @@ _RanFromBattleText::
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "fugge spaventato!"
 	prompt
 
 _WasBlownAwayText::
 	text "<TARGET>"
-	line "was blown away!"
+	line "è spazzato via!"
 	prompt
 
 _ChargeMoveEffectText::
@@ -145,32 +145,32 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "genera TURBINE!"
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "assorbe la luce!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "abbassa la testa!"
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "sta brillando!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "è volato in alto!"
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "scava una fossa!"
 	prompt
 
 _BecameConfusedText::
@@ -180,18 +180,18 @@ _BecameConfusedText::
 
 _MimicLearnedMoveText::
 	text "<USER>"
-	line "learned"
+	line "ha imparato"
 	cont "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
-	line "@"
+	text "@"
 	text_ram wcd6d
-	text " was"
-	cont "disabled!"
+	text " di"
+	line "<TARGET>"
+	cont "è fuori uso!"
 	prompt
 
 _NothingHappenedText::
@@ -199,7 +199,7 @@ _NothingHappenedText::
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Non ha effetto!"
 	prompt
 
 _ButItFailedText::
@@ -211,7 +211,7 @@ _DidntAffectText::
 	line "<TARGET>!"
 	prompt
 
-_IsUnaffectedText::
+_IsUnaffectedText::;TELEPORT???
 	text "<TARGET>"
 	line "is unaffected!"
 	prompt
@@ -223,28 +223,28 @@ _ParalyzedMayNotAttackText::
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "Ha creato un"
+	line "SOSTITUTO!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "usa un SOSTITUTO!"
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Debole! Non può"
+	line "creare SOSTITUTO!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Ci sono monetine"
+	line "sparse ovunque!"
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "si gonfia!"
 	prompt
 
 _WasSeededText::
@@ -263,53 +263,53 @@ _HitWithRecoilText::
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "Passa al tipo di"
+	line "<TARGET>"
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "Eliminato ogni"
+	line "cambio di STATO!"
 	prompt
 
 _StartedSleepingEffect::
 	text "<USER>"
-	line "started sleeping!"
+	line "s'è addormentato!"
 	done
 
 _FellAsleepBecameHealthyText::
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "si addormenta"
+	cont "e si riprende!"
 	done
 
 _RegainedHealthText::
 	text "<USER>"
-	line "regained health!"
+	line "riprende energia!"
 	prompt
 
 _TransformedText::
 	text "<USER>"
-	line "transformed into"
+	line "si trasforma in"
 	cont "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER>"
+	line "è immune agli"
+	cont "attacchi speciali"
 	prompt
 
 _ReflectGainedArmorText::
 	text "<USER>"
-	line "gained armor!"
+	line "si è corazzato!"
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "La nebbia avvolge"
+	line "<USER>"
 	prompt
 
 _SuckedHealthText::
@@ -318,8 +318,8 @@ _SuckedHealthText::
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "Mangiato sogno di"
+	line "<TARGET>"
 	prompt
 
 _TradeCenterOpponentText::

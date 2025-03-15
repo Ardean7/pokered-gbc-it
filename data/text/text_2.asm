@@ -1039,8 +1039,10 @@ _MustRechargeText::
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "@"
+	text_ram wcd6d
+	text_start
+	line "funziona ora!"
 	prompt
 
 _IsConfusedText::
@@ -1084,11 +1086,11 @@ _CantMoveText::
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
-	line "@"
+	text "@"
 	text_ram wcd6d
-	text " is"
-	cont "disabled!"
+	text " di"
+	line "<USER>"
+	cont "è inutilizzabile!"
 	prompt
 
 _MonName1Text::
@@ -1146,8 +1148,8 @@ _KeptGoingAndCrashedText::
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "è incolume!"
 	prompt
 
 _DoesntAffectMonText::
@@ -1160,7 +1162,7 @@ _CriticalHitText::
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "KO in un attacco!"
 	prompt
 
 _LoafingAroundText::
@@ -1194,14 +1196,14 @@ _IgnoredOrdersText::
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
-	cont "<TARGET>!"
+	text "Il SOSTITUTO è"
+	line "colpito invece di"
+	cont "<TARGET>"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "Rotto SOSTITUTO di"
+	line "<TARGET>"
 	prompt
 
 _BuildingRageText::
