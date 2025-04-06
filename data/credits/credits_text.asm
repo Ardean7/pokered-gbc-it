@@ -76,10 +76,10 @@ CreditsTextPointers:
 
 CredVersion:
 IF DEF(_RED)
-	db -7, "VERSIONE ROSSA@"
+	db -6, "VERSIONE ROSSA@"
 ENDC
 IF DEF(_BLUE)
-	db -8, "VERSIONE BLU@"
+	db -5, "VERSIONE BLU@"
 ENDC
 CredTajiri:
 	db -6, "SATOSHI TAJIRI@"
@@ -138,27 +138,27 @@ CredYuda:
 CredMon:
 	db -3, "#MON@"
 CredDirector:
-	db -3, "DIRETTORE@"
+	db -4, "DIRETTORE@"
 CredProgrammers:
-	db -5, "PROGRAMMATORI@"
+	db -6, "PROGRAMMATORI@"
 CredCharDesign:
-	db -7, "IDEAZ. PERSONAGGI@"
+	db -8, "IDEAZ. PERSONAGGI@"
 CredMusic:
 	db -2, "MUSICA@"
 CredSoundEffects:
 	db -6, "EFFETTI SONORI@"
 CredGameDesign:
-	db -5, "IDEAZIONE GIOCO@"
+	db -7, "IDEAZIONE GIOCO@"
 CredMonsterDesign:
-	db -6, "IDEAZIONE MOSTRI@"
+	db -7, "IDEAZIONE MOSTRI@"
 CredGameScene:
-	db -6, "AMBIENTAZ. GIOCO@"
+	db -7, "AMBIENTAZ. GIOCO@"
 CredParam:
-	db -8, "IDEAZ. PARAMETRI@"
+	db -7, "IDEAZ. PARAMETRI@"
 CredMap:
-	db -4, "IDEAZIONE MAPPA@"
+	db -7, "IDEAZIONE MAPPA@"
 CredTest:
-	db -7, "VERIFICA PRODOTTO@"
+	db -8, "VERIFICA PRODOTTO@"
 CredSpecial:
 	db -6, "RINGRAZIAMENTI@"
 CredProducers:
@@ -166,7 +166,7 @@ CredProducers:
 CredProducer:
 	db -4, "PRODUTTORE@"
 CredExecutive:
-	db -8, "PRODUTTORE ESECUTIVO@"
+	db -9, "PRODUTTORE ESECUTIVO@"
 CredTamada:
 	db -6, "SOUSUKE TAMADA@"
 CredSaOota:
@@ -176,17 +176,17 @@ CredYoshikawa:
 CredToOota:
 	db -6, "TOMOMICHI OOTA@"
 CredEUStaff:
-	db -7, "PER L'EUROPA HANNO@"
+	db -8, "PER L'EUROPA HANNO@"
 CredEUStaff2:
-	db -7, "COLLABORATO:@"
+	db -5, "COLLABORATO:@"
 CredEUCoord:
-	db -7, "COORDINAMENTO@"
+	db -6, "COORDINAMENTO@"
 CredEUCoord2:
-	db -7, "PER L'EUROPA@"
+	db -5, "PER L'EUROPA@"
 CredMoyse:
-	db -6, "CLAUDE M. MOYSE@"
+	db -7, "CLAUDE M. MOYSE@"
 CredPfitzner:
-	db -6, "MARKUS PFITZNER@"
+	db -7, "MARKUS PFITZNER@"
 CredKraft:
 	db -6, "JOHN D. KRAFT@"
 CredKawakami:
@@ -194,15 +194,15 @@ CredKawakami:
 CredEdasawa:
 	db -6, "YUSUKE EDASAWA@"
 CredUesugi:
-	db -6, "HIRO UESUGI@"
+	db -5, "HIRO UESUGI@"
 CredYoshimura:
 	db -7, "KAMON YOSHIMURA@"
 CredTrans:
-	db -7, "TESTO ITALIANO@"
+	db -6, "TESTO ITALIANO@"
 CredFogazzaro:
 	db -7, "ELENA FOGAZZARO@"
 CredPieri:
-	db -7, "LEONARDO PIERI@"
+	db -6, "LEONARDO PIERI@"
 CredIzushi:
 	db -7, "TAKEHIRO IZUSHI@"
 CredHarada:
@@ -214,10 +214,10 @@ CredFukui:
 CredNakamichi:
 	db -7, "KIMIKO NAKAMICHI@"
 CredNoe:
-	db -8, "NOE PRODUCT TESTING@"
+	db -9, "NOE PRODUCT TESTING@"
 CredKai:
 	db -8, "KAI ZEH&F.TAPPERT@"
 CredNoa:
 	db -5, "NOA TESTING@"
 CredHudson:
-	db -8, "K.HUDSON&T.BUECHELE@"
+	db -9, "K.HUDSON&T.BUECHELE@"
