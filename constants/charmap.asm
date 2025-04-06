@@ -179,6 +179,7 @@
 	charmap "ó",         $da
 	charmap "ù",         $db
 	charmap "ú",         $dc
+	charmap "&",         $dd
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
