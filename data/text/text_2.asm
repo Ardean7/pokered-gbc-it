@@ -80,8 +80,8 @@ _PlaySlotMachineText::
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Accidenti! Ho"
+	line "finito i gettoni!"
 	done
 
 _BetHowManySlotMachineText::
@@ -94,8 +94,8 @@ _StartSlotMachineText::
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Non hai abbastanza"
+	line "gettoni!"
 	prompt
 
 _OneMoreGoSlotMachineText::
@@ -103,10 +103,10 @@ _OneMoreGoSlotMachineText::
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " tris! Vinci"
+	line "@"
 	text_ram wStringBuffer
-	text " coins!"
+	text " gettoni!"
 	done
 
 _NotThisTimeText::
@@ -114,19 +114,20 @@ _NotThisTimeText::
 	prompt
 
 _YeahText::
-	text "Yeah!@"
+	text "Bene!@"
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX  Visti:@"
+	text "#DEX: Visti:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Presi:@"
+	line "Presi:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "Valutazione del"
+	line "#DEX<COLON>"
 	done
 
 _GymStatueText1::
@@ -183,11 +184,11 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "I CUBONE portano"
+	line "dei teschi, vero?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "C'è chi pagherebbe"
+	line "oro per averli!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
@@ -197,86 +198,97 @@ _MtMoonPokecenterBenchGuyText::
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
+	text "Si dice che"
+	line "LAVANDONIA sia"
+	cont "infestata dagli"
+	cont "SPETTRI!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "Magari riuscissi"
+	line "a catturare dei"
+	cont "#MON!"
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
+	text "Che fatica"
+	line "tutto questo"
+	cont "divertimento!"
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
-	line "is hiding in the"
-	cont "SAFARI ZONE."
+	text "Il direttore della"
+	line "SILPH SpA si"
+	cont "nasconde nella"
+	cont "ZONA SAFARI."
 	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful..."
+	text "È vero che un"
+	line "#MON di un"
+	cont "livello superiore"
+	cont "è più forte..."
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "...però tutti i"
+	line "#MON sono"
+	cont "vulnerabili"
+	cont "a certi attacchi."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Dunque, non ci"
+	line "sono #MON"
+	cont "invulnerabili."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "Se avessi una"
+	line "BICICLETTA andrei"
+	cont "sulla PISTA"
+	cont "CICLABILE!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	text "Visita la ZONA"
+	line "SAFARI, se"
+	cont "stai studiando"
+	cont "i #MON."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "Lì incontrerai"
+	line "tutti i tipi"
+	cont "di #MON rari!"
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
+	text "I #MON possono"
+	line "imparare altre"
+	cont "tecniche, anche"
+	cont "se l'evoluzione"
+	cont "viene interrotta."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "L'evoluzione"
+	line "può avvenire dopo"
+	cont "l'apprendimento"
+	cont "di nuove mosse."
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
+	text "Sarebbe fantastico"
+	line "se arrivassero i"
+	cont "SUPERQUATTRO e"
+	cont "annientassero"
 	cont "TEAM ROCKET!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "TEAM ROCKET se n'è"
+	line "andato! Ora si"
+	cont "può uscire senza"
+	cont "pericolo! Ottimo!"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Mia sorella mi"
+	line "accompagna in"
+	cont "questo viaggio!"
 	done
 
 _BookcaseText::
@@ -285,8 +297,8 @@ _BookcaseText::
 	done
 
 _NewBicycleText::
-	text "A shiny new"
-	line "BICYCLE!"
+	text "Una BICICLETTA"
+	line "nuova di zecca!"
 	done
 
 _PushStartText::
@@ -301,116 +313,122 @@ _SaveOptionText::
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
-	line "have strong and"
-	cont "weak points"
-	cont "against others."
+	text "Tutti i #MON"
+	line "hanno dei punti"
+	cont "forti e deboli"
+	cont "rispetto a altri."
 	done
 
 _TimesUpText::
-	text "PA: Ding-dong!"
+	text "ANNUNCIO: Din-don!"
 
-	para "Time's up!"
+	para "Tempo scaduto!"
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "ANNUNCIO: Il tuo"
+	line "GIOCO SAFARI è"
+	cont "finito!"
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "Quiz #MON!"
 
-	para "Get it right and"
-	line "the door opens to"
-	cont "the next room!"
+	para "Rispondi giusto e"
+	line "si aprirà la"
+	cont "porta della"
+	cont "prossima stanza!"
 
-	para "Get it wrong and"
-	line "face a trainer!"
+	para "Ma se la risposta"
+	line "è sbagliata,"
+	cont "dovrai vedertela"
+	cont "con l'allenatore!"
 
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
+	para "Se vuoi tenerti"
+	line "i #MON per il"
+	cont "CAPOPALESTRA..."
 
-	para "Then get it right!"
-	line "Here we go!"
+	para "...allora rispondi"
+	line "bene! Su, forza!"
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "CATERPIE diventa"
+	line "BUTTERFREE?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Sono 9 le MEDAGLIE"
+	line "ufficiali della"
+	cont "LEGA #MON?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "POLIWAG si"
+	line "trasforma"
+	cont "3 volte?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Mosse tipo tuono"
+	line "sono efficaci"
+	cont "contro i #MON"
+	cont "tipo terra?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "Non sono identici"
+	line "#MON dello"
+	cont "stesso tipo e"
+	cont "livello?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "La MT28 contiene"
+	line "PIETRA TOMBALE?"
 	done
 
 _CinnabarGymQuizCorrectText::
-	text "You're absolutely"
-	line "correct!"
+	text "Risposta esatta!"
 
-	para "Go on through!@"
+	para "Avanti!@"
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Peccato!"
+	line "Hai toppato!"
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "Riviste #MON!"
 
-	para "#MON notebooks!"
+	para "Quaderni #MON!"
 
-	para "#MON graphs!"
+	para "Foto #MON!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "Sul video"
+	line "del PC appare"
+	cont "TELETRASPORTO!"
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!@"
+	text "<PLAYER> avvia"
+	line "il Separatore"
+	cont "Cellulare del"
+	cont "TELETRASPORTO!@"
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
-	line "#MON list!"
+	text "Lista dei #MON"
+	line "preferiti"
+	cont "da BILL!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
-	line "you want to see?"
+	text "Che #MON"
+	line "vuoi vedere?"
 	done
 
 _OakLabEmailText::
@@ -455,18 +473,18 @@ _GameCornerNoCoinsText::
 	done
 
 _GameCornerOutOfOrderText::
-	text "OUT OF ORDER"
-	line "This is broken."
+	text "NON FUNZIONA"
+	line "È guasta."
 	done
 
 _GameCornerOutToLunchText::
-	text "OUT TO LUNCH"
-	line "This is reserved."
+	text "SIAMO A PRANZO"
+	line "Occupato."
 	done
 
 _GameCornerSomeonesKeysText::
-	text "Someone's keys!"
-	line "They'll be back."
+	text "C'è una borsa!"
+	line "È occupato."
 	done
 
 _JustAMomentText::
@@ -474,19 +492,19 @@ _JustAMomentText::
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on TMs."
+	text "È un opuscolo"
+	line "sulle MT."
 
 	para "..."
 
-	para "There are 50 TMs"
-	line "in all."
+	para "In totale le MT"
+	line "sono 50..."
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "Più 5 MN che si"
+	line "possono usare più"
+	cont "di una volta."
 
-	para "SILPH CO.@"
+	para "SILPH SpA@"
 	text_end
 
 _TurnPageText::
@@ -564,22 +582,23 @@ _ViridianSchoolNotebookText4::
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "I nemici! Siamo"
+	line "circondati!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "Chi semina,"
+	line "raccoglie!"
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "DOJO KARATE"
 	done
 
 _IndigoPlateauHQText::
-	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	text "ALTOPIANO BLU"
+	line "SEDE CENTRALE"
+	cont "LEGA #MON."
 	done
 
 _RedBedroomSNESText::
@@ -590,12 +609,12 @@ _RedBedroomSNESText::
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Looked into the"
-	line "binoculars..."
+	text "Guardo con"
+	line "il binocolo..."
 
-	para "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	para "Un grande uccello"
+	line "lucente vola"
+	cont "verso il mare."
 	done
 
 _AerodactylFossilText::
@@ -611,37 +630,36 @@ _KabutopsFossilText::
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "CONSIGLI UTILI"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Uso del Cavo"
+	line "Game Link."
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Che capitolo"
+	line "vuoi leggere?"
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
-	cont "#MON CENTER."
+	text "Dopo aver connesso"
+	line "il tuo GAME BOY a"
+	cont "un altro, parla"
+	cont "con l'assistente"
+	cont "a destra nel"
+	cont "CENTRO #MON."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "Al COLOSSEO puoi"
+	line "giocare con"
+	cont "un amico."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
-	cont "#MON."
+	text "Al CENTRO SCAMBI"
+	line "puoi scambiare"
+	cont "i tuoi #MON."
 	prompt
 
 _ViridianSchoolBlackboardText1::
@@ -727,40 +745,41 @@ _ViridianBlackboardFrozenText::
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Acqua! C'è solo"
+	line "spazzatura qui!"
 	done
 
 _VermilionGymTrashSuccessText1::
-	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
-	cont "Turn it on!"
+	text "Fuoco! C'è un"
+	line "pulsante sotto"
+	cont "il bidone!"
+	cont "Premilo!"
 
-	para "The 1st electric"
-	line "lock opened!@"
+	para "Primo lucchetto"
+	line "elettrico aperto!@"
 	text_end
 
 _VermilionGymTrashSuccessText2::
-	text "Hey! There's"
-	line "another switch"
-	cont "under the trash!"
-	cont "Turn it on!"
+	text "C'è l'altro"
+	line "pulsante sotto"
+	cont "il bidone!"
+	cont "Premilo!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "Secondo lucchetto"
+	line "elettrico aperto."
 
-	para "The motorized door"
-	line "opened!@"
+	para "Si apre la porta"
+	line "automatica!@"
 	text_end
 
 _VermilionGymTrashFailText::
-	text "Nope! There's"
-	line "only trash here."
-	cont "Hey! The electric"
-	cont "locks were reset!@"
+	text "Acqua! Qui c'è"
+	line "solo spazzatura."
+	cont "Ehi! I lucchetti"
+	cont "sono stati"
+	cont "richiusi!@"
 	text_end
 
 _FoundHiddenItemText::
@@ -777,39 +796,41 @@ _HiddenItemBagFullText::
 	done
 
 _FoundHiddenCoinsText::
-	text "<PLAYER> found"
+	text "<PLAYER> trova"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " gettoni!@"
 	text_end
 
 _FoundHiddenCoins2Text::
-	text "<PLAYER> found"
+	text "<PLAYER> trova"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " gettoni!@"
 	text_end
 
 _DroppedHiddenCoinsText::
 	text_start
-	para "Oops! Dropped"
-	line "some coins!"
+	para "Oh! Sono caduti"
+	line "dei gettoni!"
 	done
 
 _IndigoPlateauStatuesText1::
-	text "INDIGO PLATEAU"
+	text "ALTOPIANO BLU"
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "L'obiettivo ultimo"
+	line "degli allenatori!"
+	cont "SEDE CENTRALE"
+	cont "LEGA #MON."
 	done
 
 _IndigoPlateauStatuesText3::
-	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "La massima"
+	line "autorità #MON:"
+	cont "SEDE CENTRALE"
+	cont "LEGA #MON."
 	done
 
 _PokemonBooksText::
@@ -818,13 +839,12 @@ _PokemonBooksText::
 	done
 
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "È una scultura"
+	line "di DIGLETT."
 	done
 
 _ElevatorText::
-	text "This is an"
-	line "elevator."
+	text "È un ascensore."
 	done
 
 _TownMapText::
@@ -837,24 +857,24 @@ _PokemonStuffText::
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "ANNUNCIO: Din-don!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "Hai finito tutte"
+	line "le SAFARI BALL!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "@"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "selvatico scappa!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "ran!"
+	text " nemico"
+	line "scappa!"
 	prompt
 
 _HurtByPoisonText::
@@ -918,10 +938,9 @@ _PlayerBlackedOutText2::
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
-	line "@"
 	text_ram wTrainerName
-	text "!"
+	text " ha"
+	line "battuto <PLAYER>!"
 	prompt
 
 _TrainerAboutToUseText::
@@ -964,8 +983,9 @@ _GotAwayText::
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Non si possono"
+	line "usare gli"
+	cont "strumenti qui."
 	prompt
 
 _AlreadyOutText::
