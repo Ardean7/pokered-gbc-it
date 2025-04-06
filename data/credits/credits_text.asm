@@ -211,7 +211,7 @@ CredMurakawa:
 	db -7, "TERUKI MURAKAWA@"
 CredFukui:
 	db -5, "KOHTA FUKUI@"
-CredNakamichi
+CredNakamichi:
 	db -7, "KIMIKO NAKAMICHI@"
 CredNoe:
 	db -8, "NOE PRODUCT TESTING@"
