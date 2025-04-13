@@ -1000,8 +1000,8 @@ _MoveNoPPText::
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "Questa mossa"
+	line "è fuori uso!"
 	prompt
 
 _NoMovesLeftText::
@@ -1011,21 +1011,21 @@ _NoMovesLeftText::
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Nemico colpito"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " volte!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " non si"
+	line "muove! Che fifa!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "SPETTRO: Fuori..."
+	line "Fuori..."
 	prompt
 
 _FastAsleepText::
@@ -1050,12 +1050,12 @@ _FullyParalyzedText::
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "tentenna!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "deve ricaricarsi!"
 	prompt
 
 _DisabledNoMoreText::
@@ -1091,8 +1091,8 @@ _UnleashedEnergyText::
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER>"
+	line "è impazzito!"
 	done
 
 _AttackContinuesText::
@@ -1163,8 +1163,8 @@ _AttackMissedText::
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "va avanti e"
+	cont "si schianta!"
 	prompt
 
 _UnaffectedText::
@@ -1227,19 +1227,19 @@ _SubstituteBrokeText::
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "Cresce la FURIA di"
+	line "<USER>"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "La SPECULMOSSA"
+	next "è fallita!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "Colpito @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " volte!"
 	prompt
 
 _GainedText::
