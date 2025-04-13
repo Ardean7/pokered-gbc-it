@@ -1249,7 +1249,7 @@ _GainedText::
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "con DISTRIB. ESP,"
 	cont "@"
 	text_end
 
@@ -1285,9 +1285,10 @@ _HookedMonAttackedText::
 	prompt
 
 _EnemyAppearedText::
+	text "Appare"
+	line "@"
 	text_ram wEnemyMonNick
-	text_start
-	line "appeared!"
+	text "!"
 	prompt
 
 _TrainerWantsToFightText::
@@ -1297,14 +1298,15 @@ _TrainerWantsToFightText::
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "La SPETTROSONDA"
+	line "rivela l'identità"
+	cont "dello SPETTRO!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Uffa! Lo SPETTRO"
+	line "non può essere"
+	cont "identificato!"
 	prompt
 
 _GoText::
@@ -1361,22 +1363,21 @@ _NotVeryEffectiveText::
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "selvatico mangia!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "selvatico è"
+	cont "infuriato!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> raccoglie"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
@@ -1388,8 +1389,8 @@ _ClearSaveDataText::
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "A che piano"
+	line "vuoi andare? "
 	done
 
 _PartyMenuNormalText::
@@ -1480,11 +1481,11 @@ _TurnedOnPC1Text::
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Accesso al"
+	line "PC di BILL"
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accesso al Sistema"
+	line "Memoria #MON"
 	prompt
 
 _AccessedSomeonesPCText::
@@ -1533,8 +1534,8 @@ _NothingToDepositText::
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Non hai spazio per"
+	line "altri strumenti."
 	prompt
 
 _WhatToWithdrawText::
@@ -1559,8 +1560,8 @@ _NothingStoredText::
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Non puoi portare"
+	line "altri strumenti."
 	prompt
 
 _WhatToTossText::
@@ -1573,15 +1574,16 @@ _TossHowManyText::
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Accesso al sito"
+	line "della SALA"
+	cont "D'ONORE #MON"
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Accesso alla lista"
+	line "in SALA D'ONORE"
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Accendi!"
 	prompt
 
 _WhatText::
@@ -1589,8 +1591,8 @@ _WhatText::
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Che #MON"
+	line "vuoi depositare?"
 	done
 
 _MonWasStoredText::
@@ -1635,8 +1637,8 @@ _CantTakeMonText::
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "Che #MON"
+	line "vuoi liberare?"
 	done
 
 _OnceReleasedText::
@@ -1655,61 +1657,60 @@ _MonWasReleasedText::
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "È necessario un"
+	line "SALVADANAIO!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Cambiamo i tuoi"
+	line "gettoni in premi."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Che premio vuoi?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Ecco, tieni!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Allora, vuoi"
 	line "@"
 	text_ram wcd6d
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Ci vogliono"
+	line "altri gettoni!@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Non hai spazio"
+	line "abbastanza.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "Ah, benissimo.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Vuoi far valutare"
+	line "il tuo #DEX?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "Fine collegamento"
+	line "con PC PROF.OAK.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accesso al PC"
+	line "del PROF.OAK"
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Accesso al Sistema"
+	line "Valutaz. #DEX"
 	prompt
 
 _WhereWouldYouLikeText::
