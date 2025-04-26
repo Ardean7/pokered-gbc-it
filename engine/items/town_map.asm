@@ -155,7 +155,7 @@ LoadTownMap_Fly::
 	push af
 	ld [hl], $ff
 	push hl
-	hlcoord 0, 0
+	hlcoord 1, 0
 	ld de, ToText
 	call PlaceString
 	ld a, [wCurMap]
